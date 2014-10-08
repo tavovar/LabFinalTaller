@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Leds7Seg[0]&quot;      LOC = &quot;L18&quot;;&gt; [VGA_UCF.ucf(23)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Leds7Seg[1]&quot;      LOC = &quot;F18&quot;;&gt; [VGA_UCF.ucf(24)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Leds7Seg[2]&quot;      LOC = &quot;D17&quot;;&gt; [VGA_UCF.ucf(25)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Leds7Seg[3]&quot;      LOC = &quot;D16&quot;;&gt; [VGA_UCF.ucf(26)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Leds7Seg[4]&quot;      LOC = &quot;G14&quot;;&gt; [VGA_UCF.ucf(27)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Leds7Seg[5]&quot;      LOC = &quot;J17&quot;;&gt; [VGA_UCF.ucf(28)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Leds7Seg[6]&quot;      LOC = &quot;H14&quot;;&gt; [VGA_UCF.ucf(29)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Enable7Seg[0]&quot;       LOC = &quot;F17&quot;;&gt; [VGA_UCF.ucf(32)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Enable7Seg[1]&quot;       LOC = &quot;H17&quot;;&gt; [VGA_UCF.ucf(33)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Enable7Seg[2]&quot;       LOC = &quot;C18&quot;;&gt; [VGA_UCF.ucf(34)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;Enable7Seg[3]&quot;       LOC = &quot;F15&quot;;&gt; [VGA_UCF.ucf(35)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Leds7Seg[0]&quot;      LOC = &quot;L18&quot;;&gt; [VGA_UCF.ucf(23)]</arg> is overridden on the design object <arg fmt="%s" index="2">Leds7Seg&lt;0&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Leds7Seg&lt;0&gt;&quot; LOC = L18;&gt; [VGA_UCF.ucf(38)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Leds7Seg[1]&quot;      LOC = &quot;F18&quot;;&gt; [VGA_UCF.ucf(24)]</arg> is overridden on the design object <arg fmt="%s" index="2">Leds7Seg&lt;1&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Leds7Seg&lt;1&gt;&quot; LOC = F18;&gt; [VGA_UCF.ucf(39)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Leds7Seg[2]&quot;      LOC = &quot;D17&quot;;&gt; [VGA_UCF.ucf(25)]</arg> is overridden on the design object <arg fmt="%s" index="2">Leds7Seg&lt;2&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Leds7Seg&lt;2&gt;&quot; LOC = D17;&gt; [VGA_UCF.ucf(40)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Leds7Seg[3]&quot;      LOC = &quot;D16&quot;;&gt; [VGA_UCF.ucf(26)]</arg> is overridden on the design object <arg fmt="%s" index="2">Leds7Seg&lt;3&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Leds7Seg&lt;3&gt;&quot; LOC = D16;&gt; [VGA_UCF.ucf(41)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Leds7Seg[4]&quot;      LOC = &quot;G14&quot;;&gt; [VGA_UCF.ucf(27)]</arg> is overridden on the design object <arg fmt="%s" index="2">Leds7Seg&lt;4&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Leds7Seg&lt;4&gt;&quot; LOC = G14;&gt; [VGA_UCF.ucf(42)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Leds7Seg[5]&quot;      LOC = &quot;J17&quot;;&gt; [VGA_UCF.ucf(28)]</arg> is overridden on the design object <arg fmt="%s" index="2">Leds7Seg&lt;5&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Leds7Seg&lt;5&gt;&quot; LOC = J17;&gt; [VGA_UCF.ucf(43)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Leds7Seg[6]&quot;      LOC = &quot;H14&quot;;&gt; [VGA_UCF.ucf(29)]</arg> is overridden on the design object <arg fmt="%s" index="2">Leds7Seg&lt;6&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Leds7Seg&lt;6&gt;&quot; LOC = H14;&gt; [VGA_UCF.ucf(44)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Enable7Seg[0]&quot;       LOC = &quot;F17&quot;;&gt; [VGA_UCF.ucf(32)]</arg> is overridden on the design object <arg fmt="%s" index="2">Enable7Seg&lt;0&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Enable7Seg&lt;0&gt;&quot; LOC = F17;&gt; [VGA_UCF.ucf(45)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Enable7Seg[1]&quot;       LOC = &quot;H17&quot;;&gt; [VGA_UCF.ucf(33)]</arg> is overridden on the design object <arg fmt="%s" index="2">Enable7Seg&lt;1&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Enable7Seg&lt;1&gt;&quot; LOC = H17;&gt; [VGA_UCF.ucf(46)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Enable7Seg[2]&quot;       LOC = &quot;C18&quot;;&gt; [VGA_UCF.ucf(34)]</arg> is overridden on the design object <arg fmt="%s" index="2">Enable7Seg&lt;2&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Enable7Seg&lt;2&gt;&quot; LOC = C18;&gt; [VGA_UCF.ucf(47)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;Enable7Seg[3]&quot;       LOC = &quot;F15&quot;;&gt; [VGA_UCF.ucf(35)]</arg> is overridden on the design object <arg fmt="%s" index="2">Enable7Seg&lt;3&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;Enable7Seg&lt;3&gt;&quot; LOC = F15;&gt; [VGA_UCF.ucf(48)]</arg>.
+</msg>
+
+</messages>
+

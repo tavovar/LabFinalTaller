@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Gustavo/Desktop/VGA/lab3/SimulacionChoque_isim_beh.exe" -prj "C:/Users/Gustavo/Desktop/VGA/lab3/SimulacionChoque_beh.prj" "work.SimulacionChoque" "work.glbl" 
