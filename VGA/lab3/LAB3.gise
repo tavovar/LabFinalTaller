@@ -22,10 +22,15 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="LAB3.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SimulacionChoque_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Controlador7Segmentos_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SimulacionChoque_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="SimulacionChoque_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SimulacionChoque_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SimulacionContador7Seg_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SimulacionTubos2_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SimulacionTubos2_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="SimulacionTubos2_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SimulacionTubos_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SimulacionTubos_stx_beh.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="VGA_Control.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="VGA_Control.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PIN2UCF_REPORT" xil_pn:name="VGA_Control.lck"/>
@@ -111,11 +116,11 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1412743886" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1412743886">
+    <transform xil_pn:end_ts="1412816458" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1412816458">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412744037" xil_pn:in_ck="-4932194952244602306" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1412744037">
+    <transform xil_pn:end_ts="1412816678" xil_pn:in_ck="5333585080458488130" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1412816678">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -130,24 +135,27 @@
       <outfile xil_pn:name="MaquinaParajo.v"/>
       <outfile xil_pn:name="RandomTubo.v"/>
       <outfile xil_pn:name="SimulacionChoque.v"/>
+      <outfile xil_pn:name="SimulacionContador7Seg.v"/>
+      <outfile xil_pn:name="SimulacionTubos.v"/>
+      <outfile xil_pn:name="SimulacionTubos2.v"/>
       <outfile xil_pn:name="VGA_ClockDiv.v"/>
       <outfile xil_pn:name="VGA_Control.v"/>
       <outfile xil_pn:name="VGA_DibujaFiguras.v"/>
       <outfile xil_pn:name="comparadorChoque.v"/>
     </transform>
-    <transform xil_pn:end_ts="1412743886" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2523654567385470608" xil_pn:start_ts="1412743886">
+    <transform xil_pn:end_ts="1412816596" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3157374137624656842" xil_pn:start_ts="1412816596">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412743886" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1002714013083284046" xil_pn:start_ts="1412743886">
+    <transform xil_pn:end_ts="1412816596" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7938309081079295348" xil_pn:start_ts="1412816596">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412743886" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3464391368149583486" xil_pn:start_ts="1412743886">
+    <transform xil_pn:end_ts="1412816458" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3464391368149583486" xil_pn:start_ts="1412816458">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412744037" xil_pn:in_ck="-4932194952244602306" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1412744037">
+    <transform xil_pn:end_ts="1412816678" xil_pn:in_ck="5333585080458488130" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1412816678">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -163,12 +171,15 @@
       <outfile xil_pn:name="MaquinaParajo.v"/>
       <outfile xil_pn:name="RandomTubo.v"/>
       <outfile xil_pn:name="SimulacionChoque.v"/>
+      <outfile xil_pn:name="SimulacionContador7Seg.v"/>
+      <outfile xil_pn:name="SimulacionTubos.v"/>
+      <outfile xil_pn:name="SimulacionTubos2.v"/>
       <outfile xil_pn:name="VGA_ClockDiv.v"/>
       <outfile xil_pn:name="VGA_Control.v"/>
       <outfile xil_pn:name="VGA_DibujaFiguras.v"/>
       <outfile xil_pn:name="comparadorChoque.v"/>
     </transform>
-    <transform xil_pn:end_ts="1412744040" xil_pn:in_ck="-4932194952244602306" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7304326910994365567" xil_pn:start_ts="1412744037">
+    <transform xil_pn:end_ts="1412816680" xil_pn:in_ck="5333585080458488130" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-9161998835884740427" xil_pn:start_ts="1412816678">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -176,20 +187,20 @@
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="SimulacionChoque_beh.prj"/>
-      <outfile xil_pn:name="SimulacionChoque_isim_beh.exe"/>
+      <outfile xil_pn:name="SimulacionTubos2_beh.prj"/>
+      <outfile xil_pn:name="SimulacionTubos2_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1412744040" xil_pn:in_ck="-980884308913828024" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7648642010218874844" xil_pn:start_ts="1412744040">
+    <transform xil_pn:end_ts="1412816681" xil_pn:in_ck="-329753215423838065" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7913364010808844904" xil_pn:start_ts="1412816680">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="SimulacionChoque_isim_beh.wdb"/>
+      <outfile xil_pn:name="SimulacionTubos2_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
@@ -221,12 +232,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412745127" xil_pn:in_ck="856927012605255105" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-594201849511851023" xil_pn:start_ts="1412745115">
+    <transform xil_pn:end_ts="1412820924" xil_pn:in_ck="856927012605255105" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-594201849511851023" xil_pn:start_ts="1412820920">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="VGA_Control.lso"/>
       <outfile xil_pn:name="VGA_Control.ngc"/>
       <outfile xil_pn:name="VGA_Control.ngr"/>
@@ -234,7 +243,6 @@
       <outfile xil_pn:name="VGA_Control.stx"/>
       <outfile xil_pn:name="VGA_Control.syr"/>
       <outfile xil_pn:name="VGA_Control.xst"/>
-      <outfile xil_pn:name="VGA_Control_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
@@ -243,7 +251,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412745133" xil_pn:in_ck="-5296930607431362005" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-4322010047910750495" xil_pn:start_ts="1412745127">
+    <transform xil_pn:end_ts="1412820869" xil_pn:in_ck="-5296930607431362005" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-4322010047910750495" xil_pn:start_ts="1412820861">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -253,11 +261,9 @@
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1412745137" xil_pn:in_ck="-5246388500917635188" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1309755933173654900" xil_pn:start_ts="1412745133">
+    <transform xil_pn:end_ts="1412820877" xil_pn:in_ck="-5246388500917635188" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1309755933173654900" xil_pn:start_ts="1412820869">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="VGA_Control.pcf"/>
       <outfile xil_pn:name="VGA_Control_map.map"/>
       <outfile xil_pn:name="VGA_Control_map.mrp"/>
@@ -268,7 +274,7 @@
       <outfile xil_pn:name="VGA_Control_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1412745162" xil_pn:in_ck="7961338976520683397" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1412745137">
+    <transform xil_pn:end_ts="1412820907" xil_pn:in_ck="7961338976520683397" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1412820877">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -283,7 +289,7 @@
       <outfile xil_pn:name="VGA_Control_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1412745178" xil_pn:in_ck="-2707011441550005855" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1412745162">
+    <transform xil_pn:end_ts="1412820941" xil_pn:in_ck="-2707011441550005855" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1412820924">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="VGA_Control.ut"/>
@@ -316,8 +322,10 @@
       <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1412745162" xil_pn:in_ck="6528797512979976584" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1412745158">
-      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="AbortedRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="VGA_Control.twr"/>
       <outfile xil_pn:name="VGA_Control.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

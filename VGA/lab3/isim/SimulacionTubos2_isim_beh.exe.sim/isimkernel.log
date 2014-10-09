@@ -1,0 +1,29 @@
+Command line:
+   SimulacionTubos2_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50076
+
+Wed Oct 08 19:04:42 2014
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 524.141 Meg
+
+ Total Signals          : 20
+ Total Nets             : 56
+ Total Signal Drivers   : 12
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 19
+ Total Traceable Variables  : 35
+ Total Scalar Nets and Variables : 203
+Total Line Count : 72
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 524.141 Meg
+
+Wed Oct 08 19:05:11 2014
+

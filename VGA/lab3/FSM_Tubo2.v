@@ -42,9 +42,11 @@ parameter[2:0]
 reg[2:0] state;
 reg[2:0] next;
 reg cambio;
+
 initial begin
-    posx=iniX;
-	 posy=iniY;
+    posx=640;
+	 posy=480;
+	 state = a;
 end
 
 always@(state or inicio)

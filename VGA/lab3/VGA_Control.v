@@ -100,8 +100,7 @@ RandomTubo RandomT(
 //FSM Tubo
 FSM_CreaTubo MaquinaTuboCreador(
 	 .clk(gameclk),
-    .inicio(reset),
-	 .ciclo(ciclo),
+    .inicio(resetClear),
     .random(condicionRandom),
 	 .posx(posHTubo1),
 	 .termina(cambioTubo)

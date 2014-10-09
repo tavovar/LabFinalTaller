@@ -104,10 +104,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:  22
 
-Total memory usage is 176696 kilobytes
+Total memory usage is 176720 kilobytes
 
 Writing NGD file "VGA_Control.ngd" ...
-Total REAL time to NGDBUILD completion:  3 sec
+Total REAL time to NGDBUILD completion:  4 sec
 Total CPU time to NGDBUILD completion:   3 sec
 
 Writing NGDBUILD log file "VGA_Control.bld"...

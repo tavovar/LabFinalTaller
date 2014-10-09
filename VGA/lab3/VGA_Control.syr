@@ -3,13 +3,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.10 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.10 secs
  
 --> Reading design: VGA_Control.prj
@@ -236,8 +236,8 @@ Analyzing module <FSM_CreaTubo> in library <work>.
 	d = 3'b100
 	e = 3'b101
 	uno = 1'b1
-WARNING:Xst:905 - "FSM_CreaTubo.v" line 50: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
-   <ciclo>, <cambio>
+WARNING:Xst:905 - "FSM_CreaTubo.v" line 53: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <cambio>
 Module <FSM_CreaTubo> is correct for synthesis.
  
 Analyzing module <FSM_Tubo2> in library <work>.
@@ -248,9 +248,7 @@ Analyzing module <FSM_Tubo2> in library <work>.
 	d = 3'b100
 	e = 3'b101
 	uno = 1'b1
-WARNING:Xst:2320 - "FSM_Tubo2.v" line 46: Value for signal posx in initial block is not constant. The initialization will be ignored.
-WARNING:Xst:2320 - "FSM_Tubo2.v" line 47: Value for signal posy in initial block is not constant. The initialization will be ignored.
-WARNING:Xst:905 - "FSM_Tubo2.v" line 51: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:905 - "FSM_Tubo2.v" line 53: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <cambio>
 Module <FSM_Tubo2> is correct for synthesis.
  
@@ -352,38 +350,50 @@ Unit <RandomTubo> synthesized.
 
 Synthesizing Unit <FSM_CreaTubo>.
     Related source file is "FSM_CreaTubo.v".
-    Register <termina> equivalent to <cambio> has been removed
-INFO:Xst:2117 - HDL ADVISOR - Mux Selector <state> of Case statement line 51 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
-   	- add an 'INIT' attribute on signal <state> (optimization is then done without any risk)
-   	- use the attribute 'signal_encoding user' to avoid onehot optimization
-   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
-    Using one-hot encoding for signal <state>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Power Up State     | 001                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
     Found 10-bit register for signal <posx>.
+    Found 1-bit register for signal <termina>.
     Found 1-bit register for signal <random>.
     Found 1-bit register for signal <cambio>.
-    Found 10-bit subtractor for signal <posx$addsub0000> created at line 112.
-    Found 4-bit register for signal <state>.
+    Found 10-bit subtractor for signal <posx$addsub0000> created at line 115.
     Summary:
-	inferred  16 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+	inferred  13 D-type flip-flop(s).
 	inferred   1 Adder/Subtractor(s).
 Unit <FSM_CreaTubo> synthesized.
 
 
 Synthesizing Unit <FSM_Tubo2>.
     Related source file is "FSM_Tubo2.v".
-INFO:Xst:2117 - HDL ADVISOR - Mux Selector <state> of Case statement line 52 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
-   	- add an 'INIT' attribute on signal <state> (optimization is then done without any risk)
-   	- use the attribute 'signal_encoding user' to avoid onehot optimization
-   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
-    Using one-hot encoding for signal <state>.
+    Found finite state machine <FSM_1> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Power Up State     | 001                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
     Found 10-bit register for signal <posx>.
     Found 10-bit register for signal <posy>.
     Found 1-bit register for signal <termina>.
     Found 1-bit register for signal <cambio>.
-    Found 10-bit subtractor for signal <posx$addsub0000> created at line 114.
-    Found 4-bit register for signal <state>.
+    Found 10-bit subtractor for signal <posx$addsub0000> created at line 116.
     Summary:
-	inferred  26 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+	inferred  22 D-type flip-flop(s).
 	inferred   1 Adder/Subtractor(s).
 Unit <FSM_Tubo2> synthesized.
 
@@ -476,11 +486,11 @@ Macro Statistics
  25-bit up counter                                     : 1
  32-bit up counter                                     : 1
  4-bit up counter                                      : 3
-# Registers                                            : 25
- 1-bit register                                        : 8
+# Registers                                            : 24
+ 1-bit register                                        : 9
  10-bit register                                       : 4
  11-bit register                                       : 1
- 4-bit register                                        : 9
+ 4-bit register                                        : 7
  8-bit register                                        : 3
 # Comparators                                          : 24
  10-bit comparator greatequal                          : 1
@@ -498,490 +508,23 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-
-Synthesizing (advanced) Unit <Controlador7Segmentos>.
-INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_Leds7Seg_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
-Unit <Controlador7Segmentos> synthesized (advanced).
-
-=========================================================================
-Advanced HDL Synthesis Report
-
-Macro Statistics
-# ROMs                                                 : 1
- 16x7-bit ROM                                          : 1
-# Adders/Subtractors                                   : 18
- 10-bit adder carry out                                : 5
- 10-bit subtractor                                     : 2
- 11-bit adder                                          : 4
- 11-bit addsub                                         : 1
- 11-bit subtractor                                     : 2
- 13-bit subtractor                                     : 3
- 4-bit adder                                           : 1
-# Counters                                             : 8
- 10-bit up counter                                     : 3
- 25-bit up counter                                     : 1
- 32-bit up counter                                     : 1
- 4-bit up counter                                      : 3
-# Registers                                            : 119
- Flip-Flops                                            : 119
-# Comparators                                          : 24
- 10-bit comparator greatequal                          : 1
- 10-bit comparator greater                             : 2
- 10-bit comparator less                                : 5
- 10-bit comparator lessequal                           : 3
- 11-bit comparator greatequal                          : 5
- 11-bit comparator lessequal                           : 5
- 13-bit comparator greatequal                          : 1
- 13-bit comparator less                                : 2
-
-=========================================================================
-
-=========================================================================
-*                         Low Level Synthesis                           *
-=========================================================================
-WARNING:Xst:2677 - Node <MOD_vga_clockdiv/q_18> of sequential type is unconnected in block <VGA_Control>.
-WARNING:Xst:2677 - Node <MOD_vga_clockdiv/q_19> of sequential type is unconnected in block <VGA_Control>.
-WARNING:Xst:2677 - Node <MOD_vga_clockdiv/q_20> of sequential type is unconnected in block <VGA_Control>.
-WARNING:Xst:2677 - Node <MOD_vga_clockdiv/q_21> of sequential type is unconnected in block <VGA_Control>.
-WARNING:Xst:2677 - Node <MOD_vga_clockdiv/q_22> of sequential type is unconnected in block <VGA_Control>.
-WARNING:Xst:2677 - Node <MOD_vga_clockdiv/q_23> of sequential type is unconnected in block <VGA_Control>.
-WARNING:Xst:2677 - Node <MOD_vga_clockdiv/q_24> of sequential type is unconnected in block <VGA_Control>.
-
-Optimizing unit <VGA_Control> ...
-
-Optimizing unit <DeBounce> ...
-
-Optimizing unit <Controlador7Segmentos> ...
-
-Optimizing unit <Contador> ...
-
-Optimizing unit <RandomTubo> ...
-
-Optimizing unit <comparadorChoque> ...
-
-Optimizing unit <VGA_DibujaFiguras> ...
-
-Optimizing unit <MaquinaPajaro> ...
-
-Mapping all equations...
-Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block VGA_Control, actual ratio is 7.
-
-Final Macro Processing ...
-
-=========================================================================
-Final Register Report
-
-Macro Statistics
-# Registers                                            : 211
- Flip-Flops                                            : 211
-
-=========================================================================
-
-=========================================================================
-*                           Partition Report                            *
-=========================================================================
-
-Partition Implementation Status
--------------------------------
-
-  No Partitions were found in this design.
-
--------------------------------
-
-=========================================================================
-*                            Final Report                               *
-=========================================================================
-Final Results
-RTL Top Level Output File Name     : VGA_Control.ngr
-Top Level Output File Name         : VGA_Control
-Output Format                      : NGC
-Optimization Goal                  : Speed
-Keep Hierarchy                     : No
-
-Design Statistics
-# IOs                              : 27
-
-Cell Usage :
-# BELS                             : 1012
-#      GND                         : 1
-#      INV                         : 47
-#      LUT1                        : 74
-#      LUT2                        : 161
-#      LUT2_D                      : 2
-#      LUT2_L                      : 4
-#      LUT3                        : 78
-#      LUT3_L                      : 2
-#      LUT4                        : 186
-#      LUT4_D                      : 5
-#      LUT4_L                      : 5
-#      MUXCY                       : 294
-#      MUXF5                       : 11
-#      VCC                         : 1
-#      XORCY                       : 141
-# FlipFlops/Latches                : 211
-#      FD                          : 70
-#      FDC                         : 31
-#      FDCE                        : 26
-#      FDE                         : 10
-#      FDP                         : 1
-#      FDR                         : 41
-#      FDS                         : 22
-#      FDSE                        : 10
-# Clock Buffers                    : 3
-#      BUFG                        : 2
-#      BUFGP                       : 1
-# IO Buffers                       : 25
-#      IBUF                        : 3
-#      OBUF                        : 22
-=========================================================================
-
-Device utilization summary:
----------------------------
-
-Selected Device : 3s500efg320-5 
-
- Number of Slices:                      306  out of   4656     6%  
- Number of Slice Flip Flops:            211  out of   9312     2%  
- Number of 4 input LUTs:                564  out of   9312     6%  
- Number of IOs:                          27
- Number of bonded IOBs:                  26  out of    232    11%  
- Number of GCLKs:                         3  out of     24    12%  
-
----------------------------
-Partition Resource Summary:
----------------------------
-
-  No Partitions were found in this design.
-
----------------------------
-
-
-=========================================================================
-TIMING REPORT
-
-NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
-      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
-      GENERATED AFTER PLACE-and-ROUTE.
-
-Clock Information:
-------------------
------------------------------------+---------------------------+-------+
-Clock Signal                       | Clock buffer(FF name)     | Load  |
------------------------------------+---------------------------+-------+
-clk                                | BUFGP                     | 107   |
-MOD_vga_clockdiv/q_171             | BUFG                      | 58    |
-MaquinaTubo2/termina               | NONE(CNT/unidadesMillar_0)| 16    |
-MaquinaTuboCreador/random          | NONE(RandomT/posicion_9)  | 10    |
-MOD_vga_clockdiv/q_01              | BUFG                      | 20    |
------------------------------------+---------------------------+-------+
-INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
-
-Asynchronous Control Signals Information:
-----------------------------------------
------------------------------------+---------------------------+-------+
-Control Signal                     | Buffer(FF name)           | Load  |
------------------------------------+---------------------------+-------+
-choque/choque(choque/choque:Q)     | NONE(CNT/centesimas_0)    | 36    |
-N0(XST_GND:G)                      | NONE(MOD_vga_clockdiv/q_0)| 18    |
-BTN1/debounced(BTN1/debounced:Q)   | NONE(MaqPajaro/state_0)   | 4     |
------------------------------------+---------------------------+-------+
-
-Timing Summary:
----------------
-Speed Grade: -5
-
-   Minimum period: 6.427ns (Maximum Frequency: 155.584MHz)
-   Minimum input arrival time before clock: 2.467ns
-   Maximum output required time after clock: 12.613ns
-   Maximum combinational path delay: No path found
-
-Timing Detail:
---------------
-All values displayed in nanoseconds (ns)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 4.765ns (frequency: 209.846MHz)
-  Total number of paths / destination ports: 2098 / 135
--------------------------------------------------------------------------
-Delay:               4.765ns (Levels of Logic = 10)
-  Source:            IMP/count_8 (FF)
-  Destination:       IMP/Enable7Seg_2 (FF)
-  Source Clock:      clk rising
-  Destination Clock: clk rising
-
-  Data Path: IMP/count_8 to IMP/Enable7Seg_2
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDR:C->Q              2   0.514   0.532  IMP/count_8 (IMP/count_8)
-     LUT4:I0->O            1   0.612   0.000  IMP/count_or0000_wg_lut<0> (IMP/count_or0000_wg_lut<0>)
-     MUXCY:S->O            1   0.404   0.000  IMP/count_or0000_wg_cy<0> (IMP/count_or0000_wg_cy<0>)
-     MUXCY:CI->O           1   0.052   0.000  IMP/count_or0000_wg_cy<1> (IMP/count_or0000_wg_cy<1>)
-     MUXCY:CI->O           1   0.052   0.000  IMP/count_or0000_wg_cy<2> (IMP/count_or0000_wg_cy<2>)
-     MUXCY:CI->O           1   0.052   0.000  IMP/count_or0000_wg_cy<3> (IMP/count_or0000_wg_cy<3>)
-     MUXCY:CI->O           1   0.052   0.000  IMP/count_or0000_wg_cy<4> (IMP/count_or0000_wg_cy<4>)
-     MUXCY:CI->O           1   0.052   0.000  IMP/count_or0000_wg_cy<5> (IMP/count_or0000_wg_cy<5>)
-     MUXCY:CI->O           1   0.052   0.000  IMP/count_or0000_wg_cy<6> (IMP/count_or0000_wg_cy<6>)
-     MUXCY:CI->O          36   0.289   1.226  IMP/count_or0000_wg_cy<7> (IMP/count_or0000)
-     LUT4:I0->O            1   0.612   0.000  IMP/Enable7Seg_mux0000<1> (IMP/Enable7Seg_mux0000<1>)
-     FD:D                      0.268          IMP/Enable7Seg_2
-    ----------------------------------------
-    Total                      4.765ns (3.008ns logic, 1.758ns route)
-                                       (63.1% logic, 36.9% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'MOD_vga_clockdiv/q_171'
-  Clock period: 6.337ns (frequency: 157.802MHz)
-  Total number of paths / destination ports: 1240 / 92
--------------------------------------------------------------------------
-Delay:               6.337ns (Levels of Logic = 5)
-  Source:            MaqPajaro/posY_7 (FF)
-  Destination:       MaqPajaro/posY_10 (FF)
-  Source Clock:      MOD_vga_clockdiv/q_171 rising
-  Destination Clock: MOD_vga_clockdiv/q_171 rising
-
-  Data Path: MaqPajaro/posY_7 to MaqPajaro/posY_10
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FD:C->Q              11   0.514   0.945  MaqPajaro/posY_7 (MaqPajaro/posY_7)
-     LUT2:I0->O            1   0.612   0.360  MaqPajaro/posY_and0000125_SW0 (N59)
-     LUT4_D:I3->LO         1   0.612   0.130  MaqPajaro/posY_and00011 (N113)
-     LUT3:I2->O            1   0.612   0.360  MaqPajaro/posY_mux0000<0>1_SW0 (N50)
-     LUT4_D:I3->O          9   0.612   0.700  MaqPajaro/posY_mux0000<0>1 (MaqPajaro/N01)
-     LUT4:I3->O            1   0.612   0.000  MaqPajaro/posY_mux0000<8>1 (MaqPajaro/posY_mux0000<8>)
-     FD:D                      0.268          MaqPajaro/posY_2
-    ----------------------------------------
-    Total                      6.337ns (3.842ns logic, 2.495ns route)
-                                       (60.6% logic, 39.4% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'MaquinaTubo2/termina'
-  Clock period: 4.269ns (frequency: 234.236MHz)
-  Total number of paths / destination ports: 250 / 32
--------------------------------------------------------------------------
-Delay:               4.269ns (Levels of Logic = 2)
-  Source:            CNT/decimas_2 (FF)
-  Destination:       CNT/unidadesMillar_0 (FF)
-  Source Clock:      MaquinaTubo2/termina rising
-  Destination Clock: MaquinaTubo2/termina rising
-
-  Data Path: CNT/decimas_2 to CNT/unidadesMillar_0
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDCE:C->Q             7   0.514   0.754  CNT/decimas_2 (CNT/decimas_2)
-     LUT4:I0->O            8   0.612   0.795  CNT/unidadesMillar_not000121 (CNT/N3)
-     LUT3:I0->O            4   0.612   0.499  CNT/unidadesMillar_not00013 (CNT/unidadesMillar_not0001)
-     FDCE:CE                   0.483          CNT/unidadesMillar_3
-    ----------------------------------------
-    Total                      4.269ns (2.221ns logic, 2.048ns route)
-                                       (52.0% logic, 48.0% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'MOD_vga_clockdiv/q_01'
-  Clock period: 6.427ns (frequency: 155.584MHz)
-  Total number of paths / destination ports: 1236 / 30
--------------------------------------------------------------------------
-Delay:               6.427ns (Levels of Logic = 13)
-  Source:            MOD_vga_dibujafiguras/hc_1 (FF)
-  Destination:       MOD_vga_dibujafiguras/hc_9 (FF)
-  Source Clock:      MOD_vga_clockdiv/q_01 rising
-  Destination Clock: MOD_vga_clockdiv/q_01 rising
-
-  Data Path: MOD_vga_dibujafiguras/hc_1 to MOD_vga_dibujafiguras/hc_9
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDC:C->Q             11   0.514   0.945  MOD_vga_dibujafiguras/hc_1 (MOD_vga_dibujafiguras/hc_1)
-     LUT2_D:I0->O          1   0.612   0.426  MOD_vga_dibujafiguras/hc_not00013 (MOD_vga_dibujafiguras/hc_not00013)
-     LUT4:I1->O           17   0.612   0.923  MOD_vga_dibujafiguras/hc_not000121_1 (MOD_vga_dibujafiguras/hc_not000121)
-     LUT3:I2->O            1   0.612   0.000  MOD_vga_dibujafiguras/Mcount_hc_lut<0> (MOD_vga_dibujafiguras/Mcount_hc_lut<0>)
-     MUXCY:S->O            1   0.404   0.000  MOD_vga_dibujafiguras/Mcount_hc_cy<0> (MOD_vga_dibujafiguras/Mcount_hc_cy<0>)
-     MUXCY:CI->O           1   0.051   0.000  MOD_vga_dibujafiguras/Mcount_hc_cy<1> (MOD_vga_dibujafiguras/Mcount_hc_cy<1>)
-     MUXCY:CI->O           1   0.051   0.000  MOD_vga_dibujafiguras/Mcount_hc_cy<2> (MOD_vga_dibujafiguras/Mcount_hc_cy<2>)
-     MUXCY:CI->O           1   0.051   0.000  MOD_vga_dibujafiguras/Mcount_hc_cy<3> (MOD_vga_dibujafiguras/Mcount_hc_cy<3>)
-     MUXCY:CI->O           1   0.051   0.000  MOD_vga_dibujafiguras/Mcount_hc_cy<4> (MOD_vga_dibujafiguras/Mcount_hc_cy<4>)
-     MUXCY:CI->O           1   0.051   0.000  MOD_vga_dibujafiguras/Mcount_hc_cy<5> (MOD_vga_dibujafiguras/Mcount_hc_cy<5>)
-     MUXCY:CI->O           1   0.051   0.000  MOD_vga_dibujafiguras/Mcount_hc_cy<6> (MOD_vga_dibujafiguras/Mcount_hc_cy<6>)
-     MUXCY:CI->O           1   0.051   0.000  MOD_vga_dibujafiguras/Mcount_hc_cy<7> (MOD_vga_dibujafiguras/Mcount_hc_cy<7>)
-     MUXCY:CI->O           0   0.051   0.000  MOD_vga_dibujafiguras/Mcount_hc_cy<8> (MOD_vga_dibujafiguras/Mcount_hc_cy<8>)
-     XORCY:CI->O           1   0.699   0.000  MOD_vga_dibujafiguras/Mcount_hc_xor<9> (MOD_vga_dibujafiguras/Mcount_hc9)
-     FDC:D                     0.268          MOD_vga_dibujafiguras/hc_9
-    ----------------------------------------
-    Total                      6.427ns (4.133ns logic, 2.294ns route)
-                                       (64.3% logic, 35.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'MOD_vga_clockdiv/q_171'
-  Total number of paths / destination ports: 2 / 2
--------------------------------------------------------------------------
-Offset:              2.467ns (Levels of Logic = 2)
-  Source:            reset (PAD)
-  Destination:       MaquinaTuboCreador/state_1 (FF)
-  Destination Clock: MOD_vga_clockdiv/q_171 rising
-
-  Data Path: reset to MaquinaTuboCreador/state_1
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O             3   1.106   0.481  reset_IBUF (reset_IBUF)
-     LUT3:I2->O            1   0.612   0.000  MaquinaTuboCreador/next<1>1 (MaquinaTuboCreador/next<1>)
-     FD:D                      0.268          MaquinaTuboCreador/state_1
-    ----------------------------------------
-    Total                      2.467ns (1.986ns logic, 0.481ns route)
-                                       (80.5% logic, 19.5% route)
-
-=========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 3 / 3
--------------------------------------------------------------------------
-Offset:              1.825ns (Levels of Logic = 1)
-  Source:            reset (PAD)
-  Destination:       BTN1/rege_0 (FF)
-  Destination Clock: clk rising
-
-  Data Path: reset to BTN1/rege_0
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O             3   1.106   0.451  reset_IBUF (reset_IBUF)
-     FD:D                      0.268          BTN1/rege_0
-    ----------------------------------------
-    Total                      1.825ns (1.374ns logic, 0.451ns route)
-                                       (75.3% logic, 24.7% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'MOD_vga_clockdiv/q_01'
-  Total number of paths / destination ports: 1015 / 9
--------------------------------------------------------------------------
-Offset:              9.955ns (Levels of Logic = 7)
-  Source:            MOD_vga_dibujafiguras/hc_1 (FF)
-  Destination:       green<1> (PAD)
-  Source Clock:      MOD_vga_clockdiv/q_01 rising
-
-  Data Path: MOD_vga_dibujafiguras/hc_1 to green<1>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDC:C->Q             11   0.514   0.945  MOD_vga_dibujafiguras/hc_1 (MOD_vga_dibujafiguras/hc_1)
-     LUT3:I0->O            1   0.612   0.360  MOD_vga_dibujafiguras/red_and000137_SW0 (N87)
-     LUT4:I3->O            1   0.612   0.360  MOD_vga_dibujafiguras/red_and000137 (MOD_vga_dibujafiguras/red_and000137)
-     LUT4:I3->O            1   0.612   0.387  MOD_vga_dibujafiguras/red_and000146 (MOD_vga_dibujafiguras/red_and000146)
-     LUT4:I2->O            4   0.612   0.502  MOD_vga_dibujafiguras/red_and0001100 (MOD_vga_dibujafiguras/red_and0001)
-     LUT4:I3->O            1   0.612   0.000  MOD_vga_dibujafiguras/green<1>11 (MOD_vga_dibujafiguras/green<1>1)
-     MUXF5:I0->O           2   0.278   0.380  MOD_vga_dibujafiguras/green<1>1_f5 (green_0_OBUF)
-     OBUF:I->O                 3.169          green_1_OBUF (green<1>)
-    ----------------------------------------
-    Total                      9.955ns (7.021ns logic, 2.934ns route)
-                                       (70.5% logic, 29.5% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'MOD_vga_clockdiv/q_171'
-  Total number of paths / destination ports: 3490 / 8
--------------------------------------------------------------------------
-Offset:              12.420ns (Levels of Logic = 13)
-  Source:            MaqPajaro/posY_6 (FF)
-  Destination:       green<1> (PAD)
-  Source Clock:      MOD_vga_clockdiv/q_171 rising
-
-  Data Path: MaqPajaro/posY_6 to green<1>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FD:C->Q              12   0.514   0.969  MaqPajaro/posY_6 (MaqPajaro/posY_6)
-     LUT1:I0->O            1   0.612   0.000  MOD_vga_dibujafiguras/Madd_add0000_addsub0000_cy<6>_rt (MOD_vga_dibujafiguras/Madd_add0000_addsub0000_cy<6>_rt)
-     MUXCY:S->O            1   0.404   0.000  MOD_vga_dibujafiguras/Madd_add0000_addsub0000_cy<6> (MOD_vga_dibujafiguras/Madd_add0000_addsub0000_cy<6>)
-     MUXCY:CI->O           1   0.052   0.000  MOD_vga_dibujafiguras/Madd_add0000_addsub0000_cy<7> (MOD_vga_dibujafiguras/Madd_add0000_addsub0000_cy<7>)
-     XORCY:CI->O           3   0.699   0.603  MOD_vga_dibujafiguras/Madd_add0000_addsub0000_xor<8> (MOD_vga_dibujafiguras/add0000_addsub0000<8>)
-     LUT4:I0->O            1   0.612   0.426  MOD_vga_dibujafiguras/Msub__sub0000_xor<8>11 (MOD_vga_dibujafiguras/_sub0000<8>)
-     LUT2:I1->O            1   0.612   0.000  MOD_vga_dibujafiguras/Mcompar_red_cmp_ge0001_lut<8> (MOD_vga_dibujafiguras/Mcompar_red_cmp_ge0001_lut<8>)
-     MUXCY:S->O            1   0.404   0.000  MOD_vga_dibujafiguras/Mcompar_red_cmp_ge0001_cy<8> (MOD_vga_dibujafiguras/Mcompar_red_cmp_ge0001_cy<8>)
-     MUXCY:CI->O           1   0.051   0.000  MOD_vga_dibujafiguras/Mcompar_red_cmp_ge0001_cy<9> (MOD_vga_dibujafiguras/Mcompar_red_cmp_ge0001_cy<9>)
-     MUXCY:CI->O           1   0.399   0.509  MOD_vga_dibujafiguras/Mcompar_red_cmp_ge0001_cy<10> (MOD_vga_dibujafiguras/red_cmp_ge0001)
-     LUT4:I0->O            4   0.612   0.502  MOD_vga_dibujafiguras/red_and0001100 (MOD_vga_dibujafiguras/red_and0001)
-     LUT4:I3->O            1   0.612   0.000  MOD_vga_dibujafiguras/green<1>11 (MOD_vga_dibujafiguras/green<1>1)
-     MUXF5:I0->O           2   0.278   0.380  MOD_vga_dibujafiguras/green<1>1_f5 (green_0_OBUF)
-     OBUF:I->O                 3.169          green_1_OBUF (green<1>)
-    ----------------------------------------
-    Total                     12.420ns (9.030ns logic, 3.389ns route)
-                                       (72.7% logic, 27.3% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'MaquinaTuboCreador/random'
-  Total number of paths / destination ports: 728 / 4
--------------------------------------------------------------------------
-Offset:              10.953ns (Levels of Logic = 18)
-  Source:            RandomT/posicion_0 (FF)
-  Destination:       green<1> (PAD)
-  Source Clock:      MaquinaTuboCreador/random rising
-
-  Data Path: RandomT/posicion_0 to green<1>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FD:C->Q               2   0.514   0.380  RandomT/posicion_0 (RandomT/posicion_0)
-     INV:I->O              1   0.612   0.000  MOD_vga_dibujafiguras/Madd_add0001_addsub0000_lut<0>_INV_0 (MOD_vga_dibujafiguras/Madd_add0001_addsub0000_lut<0>)
-     MUXCY:S->O            1   0.404   0.000  MOD_vga_dibujafiguras/Madd_add0001_addsub0000_cy<0> (MOD_vga_dibujafiguras/Madd_add0001_addsub0000_cy<0>)
-     MUXCY:CI->O           1   0.052   0.000  MOD_vga_dibujafiguras/Madd_add0001_addsub0000_cy<1> (MOD_vga_dibujafiguras/Madd_add0001_addsub0000_cy<1>)
-     MUXCY:CI->O           1   0.052   0.000  MOD_vga_dibujafiguras/Madd_add0001_addsub0000_cy<2> (MOD_vga_dibujafiguras/Madd_add0001_addsub0000_cy<2>)
-     MUXCY:CI->O           1   0.052   0.000  MOD_vga_dibujafiguras/Madd_add0001_addsub0000_cy<3> (MOD_vga_dibujafiguras/Madd_add0001_addsub0000_cy<3>)
-     MUXCY:CI->O           1   0.052   0.000  MOD_vga_dibujafiguras/Madd_add0001_addsub0000_cy<4> (MOD_vga_dibujafiguras/Madd_add0001_addsub0000_cy<4>)
-     MUXCY:CI->O           1   0.052   0.000  MOD_vga_dibujafiguras/Madd_add0001_addsub0000_cy<5> (MOD_vga_dibujafiguras/Madd_add0001_addsub0000_cy<5>)
-     MUXCY:CI->O           1   0.052   0.000  MOD_vga_dibujafiguras/Madd_add0001_addsub0000_cy<6> (MOD_vga_dibujafiguras/Madd_add0001_addsub0000_cy<6>)
-     XORCY:CI->O           5   0.699   0.607  MOD_vga_dibujafiguras/Madd_add0001_addsub0000_xor<7> (MOD_vga_dibujafiguras/Msub__sub0001_cy<7>)
-     LUT2:I1->O            1   0.612   0.000  MOD_vga_dibujafiguras/Mcompar_green_cmp_lt0000_lut<7> (MOD_vga_dibujafiguras/Mcompar_green_cmp_lt0000_lut<7>)
-     MUXCY:S->O            1   0.404   0.000  MOD_vga_dibujafiguras/Mcompar_green_cmp_lt0000_cy<7> (MOD_vga_dibujafiguras/Mcompar_green_cmp_lt0000_cy<7>)
-     MUXCY:CI->O           1   0.051   0.000  MOD_vga_dibujafiguras/Mcompar_green_cmp_lt0000_cy<8> (MOD_vga_dibujafiguras/Mcompar_green_cmp_lt0000_cy<8>)
-     MUXCY:CI->O           1   0.051   0.000  MOD_vga_dibujafiguras/Mcompar_green_cmp_lt0000_cy<9> (MOD_vga_dibujafiguras/Mcompar_green_cmp_lt0000_cy<9>)
-     MUXCY:CI->O           2   0.399   0.410  MOD_vga_dibujafiguras/Mcompar_green_cmp_lt0000_cy<10> (MOD_vga_dibujafiguras/Mcompar_green_cmp_lt0000_cy<10>)
-     LUT4:I2->O            2   0.612   0.449  MOD_vga_dibujafiguras/green<2>14 (MOD_vga_dibujafiguras/green<2>14)
-     LUT4:I1->O            1   0.612   0.000  MOD_vga_dibujafiguras/green<1>11 (MOD_vga_dibujafiguras/green<1>1)
-     MUXF5:I0->O           2   0.278   0.380  MOD_vga_dibujafiguras/green<1>1_f5 (green_0_OBUF)
-     OBUF:I->O                 3.169          green_1_OBUF (green<1>)
-    ----------------------------------------
-    Total                     10.953ns (8.727ns logic, 2.226ns route)
-                                       (79.7% logic, 20.3% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 377 / 11
--------------------------------------------------------------------------
-Offset:              12.613ns (Levels of Logic = 8)
-  Source:            IMP/Enable7Seg_3 (FF)
-  Destination:       Leds7Seg<6> (PAD)
-  Source Clock:      clk rising
-
-  Data Path: IMP/Enable7Seg_3 to Leds7Seg<6>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FD:C->Q              13   0.514   0.988  IMP/Enable7Seg_3 (IMP/Enable7Seg_3)
-     LUT4:I0->O            5   0.612   0.690  IMP/Leds7Seg<6>31 (IMP/N17)
-     LUT3:I0->O            1   0.612   0.509  IMP/Leds7Seg<3>213 (IMP/Leds7Seg<3>213)
-     LUT4:I0->O            3   0.612   0.603  IMP/Leds7Seg<3>215_SW0 (N79)
-     LUT4:I0->O            1   0.612   0.509  IMP/Leds7Seg<3>215 (IMP/N2)
-     LUT3:I0->O            3   0.612   0.481  IMP/Leds7Seg<1>116 (IMP/N5)
-     LUT4:I2->O            1   0.612   0.509  IMP/Leds7Seg<6>33 (IMP/Leds7Seg<6>33)
-     LUT2:I0->O            1   0.612   0.357  IMP/Leds7Seg<6>1261 (Leds7Seg_6_OBUF)
-     OBUF:I->O                 3.169          Leds7Seg_6_OBUF (Leds7Seg<6>)
-    ----------------------------------------
-    Total                     12.613ns (7.967ns logic, 4.646ns route)
-                                       (63.2% logic, 36.8% route)
-
-=========================================================================
-
-
-Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 9.01 secs
- 
---> 
-
-Total memory usage is 248996 kilobytes
-
-Number of errors   :    0 (   0 filtered)
-Number of warnings :   17 (   0 filtered)
-Number of infos    :    6 (   0 filtered)
-
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <MaquinaTubo2/state/FSM> on signal <state[1:4]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 001   | 0001
+ 010   | 0010
+ 011   | 0100
+ 100   | 1000
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <MaquinaTuboCreador/state/FSM> on signal <state[1:2]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 001   | 00
+ 010   | 01
+ 011   | 10
+ 100   | 11
+-------------------

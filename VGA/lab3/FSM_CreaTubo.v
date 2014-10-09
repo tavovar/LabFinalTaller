@@ -21,7 +21,6 @@
 
 module FSM_CreaTubo(input clk,
     input inicio,
-	 input ciclo,
     output reg random,
     output reg[9:0] posx,
 	 output reg termina
@@ -41,8 +40,12 @@ parameter[2:0]
 reg[2:0] state;
 reg[2:0] next;
 reg cambio;
+
+
 initial begin
-    posx=639;
+    posx=640;
+	 state  = a;
+	 cambio = uno;
 end
 
 
@@ -50,7 +53,7 @@ always@(state or inicio)
 begin
     case(state)
    	 a:begin
-   		 if(inicio || ciclo)begin
+   		 if(inicio || cambio)begin
    			 next = b;
    		 end
    		 else begin
@@ -91,13 +94,13 @@ begin
     case(state)
    	 a: begin
    		 random = cero;
-   		 cambio = cero;
 			 termina = cero;
    		 posx=639;
 			 
    	 end
    	 b: begin
    		 random = uno;
+			 cambio= cero;
    	 end
    	 c: begin
    		 if(posx==320)begin

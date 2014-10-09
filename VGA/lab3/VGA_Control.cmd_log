@@ -547,3 +547,10 @@ map -filter "C:/Users/Gustavo/Desktop/VGA/lab3/iseconfig/filter.filter" -intstyl
 par -filter "C:/Users/Gustavo/Desktop/VGA/lab3/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 VGA_Control_map.ncd VGA_Control.ncd VGA_Control.pcf 
 trce -filter C:/Users/Gustavo/Desktop/VGA/lab3/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VGA_Control.twx VGA_Control.ncd -o VGA_Control.twr VGA_Control.pcf -ucf VGA_UCF.ucf 
 bitgen -filter "iseconfig/filter.filter" -intstyle ise -f VGA_Control.ut VGA_Control.ncd 
+xst -intstyle ise -filter "C:/Users/Gustavo/Desktop/VGA/lab3/iseconfig/filter.filter" -ifn "C:/Users/Gustavo/Desktop/VGA/lab3/VGA_Control.xst" -ofn "C:/Users/Gustavo/Desktop/VGA/lab3/VGA_Control.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc VGA_UCF.ucf -p xc3s500e-fg320-5 VGA_Control.ngc VGA_Control.ngd  
+map -filter "C:/Users/Gustavo/Desktop/VGA/lab3/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VGA_Control_map.ncd VGA_Control.ngd VGA_Control.pcf 
+par -filter "C:/Users/Gustavo/Desktop/VGA/lab3/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 VGA_Control_map.ncd VGA_Control.ncd VGA_Control.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f VGA_Control.ut VGA_Control.ncd 
+xst -intstyle ise -filter "C:/Users/Gustavo/Desktop/VGA/lab3/iseconfig/filter.filter" -ifn "C:/Users/Gustavo/Desktop/VGA/lab3/VGA_Control.xst" -ofn "C:/Users/Gustavo/Desktop/VGA/lab3/VGA_Control.syr" 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f VGA_Control.ut VGA_Control.ncd 
