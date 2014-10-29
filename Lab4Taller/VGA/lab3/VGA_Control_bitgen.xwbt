@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\Gustavo\Desktop\VGA\lab3\VGA_Control.ncd
-OUTFILE=C:\Users\Gustavo\Desktop\VGA\lab3\VGA_Control.bit
-FAMILY=Spartan3E
-PART=xc3s500e-5fg320
-WORKINGDIR=C:\Users\Gustavo\Desktop\VGA\lab3
-LICENSE=WebPack
-USER_INFO=210931742_0_0_200
