@@ -85,69 +85,89 @@ module Controlador7Seg(
 	if(Enable7Seg == Seg1)
 		begin
 			case (Display1) 
-				 0  : Leds7Seg = 7'b1000000;	
-				 1  : Leds7Seg = 7'b1111001;   // 1
-				 2  : Leds7Seg = 7'b0100100;   // 2
-				 3  : Leds7Seg = 7'b0110000;   // 3
-				 4  : Leds7Seg = 7'b0011001;   // 4
-				 5  : Leds7Seg = 7'b0010010;   // 5
-				 6  : Leds7Seg = 7'b0000010;   // 6
-				 7  : Leds7Seg = 7'b1111000;   // 7
-				 8  : Leds7Seg = 7'b0000000;   // 8
-				 9  : Leds7Seg = 7'b0010000;   // 9
-				 10 : Leds7Seg = 7'b1111001;   // HI
-				 default : Leds7Seg = 7'b1111111; 
+						0  : Leds7Seg = 7'b1000000;	
+				1  : Leds7Seg = 7'b1111001;   // 1
+				2  : Leds7Seg = 7'b0100100;   // 2
+				3  : Leds7Seg = 7'b0110000;   // 3
+				4  : Leds7Seg = 7'b0011001;   // 4
+				5  : Leds7Seg = 7'b0010010;   // 5
+				6  : Leds7Seg = 7'b0000010;   // 6
+				7  : Leds7Seg = 7'b1111000;   // 7
+				8  : Leds7Seg = 7'b0000000;   // 8
+				9  : Leds7Seg = 7'b0010000;   // 9
+				10 : Leds7Seg = 7'b0001000;   // A
+				11 : Leds7Seg = 7'b0000011;   // b
+				12 : Leds7Seg = 7'b1000110;   // C
+				13 : Leds7Seg = 7'b0100001;   // d
+				14 : Leds7Seg = 7'b0000110;   // E
+				15 : Leds7Seg = 7'b0001110;   // F
+				default : Leds7Seg = 7'b1000000; 
 			endcase
 		end
 	else if(Enable7Seg == Seg2)
 		begin
 			case (Display2) 
-				 0  : Leds7Seg = 7'b1000000;	
-				 1  : Leds7Seg = 7'b1111001;   // 1
-				 2  : Leds7Seg = 7'b0100100;   // 2
-				 3  : Leds7Seg = 7'b0110000;   // 3
-				 4  : Leds7Seg = 7'b0011001;   // 4
-				 5  : Leds7Seg = 7'b0010010;   // 5
-				 6  : Leds7Seg = 7'b0000010;   // 6
-				 7  : Leds7Seg = 7'b1111000;   // 7
-				 8  : Leds7Seg = 7'b0000000;   // 8
-				 9  : Leds7Seg = 7'b0010000;   // 9
-				 10 : Leds7Seg = 7'b0001001;   // HI
-				 default : Leds7Seg = 7'b1111111;  
+				0  : Leds7Seg = 7'b1000000;	
+				1  : Leds7Seg = 7'b1111001;   // 1
+				2  : Leds7Seg = 7'b0100100;   // 2
+				3  : Leds7Seg = 7'b0110000;   // 3
+				4  : Leds7Seg = 7'b0011001;   // 4
+				5  : Leds7Seg = 7'b0010010;   // 5
+				6  : Leds7Seg = 7'b0000010;   // 6
+				7  : Leds7Seg = 7'b1111000;   // 7
+				8  : Leds7Seg = 7'b0000000;   // 8
+				9  : Leds7Seg = 7'b0010000;   // 9
+				10 : Leds7Seg = 7'b0001000;   // A
+				11 : Leds7Seg = 7'b0000011;   // b
+				12 : Leds7Seg = 7'b1000110;   // C
+				13 : Leds7Seg = 7'b0100001;   // d
+				14 : Leds7Seg = 7'b0000110;   // E
+				15 : Leds7Seg = 7'b0001110;   // F
+				default : Leds7Seg = 7'b1000000;  
 			endcase
 		end
 	else if(Enable7Seg == Seg3)
 		begin
 			case (Display3) 
-				 0  : Leds7Seg = 7'b1000000;	
-				 1  : Leds7Seg = 7'b1111001;   // 1
-				 2  : Leds7Seg = 7'b0100100;   // 2
-				 3  : Leds7Seg = 7'b0110000;   // 3
-				 4  : Leds7Seg = 7'b0011001;   // 4
-				 5  : Leds7Seg = 7'b0010010;   // 5
-				 6  : Leds7Seg = 7'b0000010;   // 6
-				 7  : Leds7Seg = 7'b1111000;   // 7
-				 8  : Leds7Seg = 7'b0000000;   // 8
-				 9  : Leds7Seg = 7'b0010000;   // 9
-				 10 : Leds7Seg = 7'b1111111;   // HI
-				 default : Leds7Seg = 7'b1111111; 
+				0  : Leds7Seg = 7'b1000000;	
+				1  : Leds7Seg = 7'b1111001;   // 1
+				2  : Leds7Seg = 7'b0100100;   // 2
+				3  : Leds7Seg = 7'b0110000;   // 3
+				4  : Leds7Seg = 7'b0011001;   // 4
+				5  : Leds7Seg = 7'b0010010;   // 5
+				6  : Leds7Seg = 7'b0000010;   // 6
+				7  : Leds7Seg = 7'b1111000;   // 7
+				8  : Leds7Seg = 7'b0000000;   // 8
+				9  : Leds7Seg = 7'b0010000;   // 9
+				10 : Leds7Seg = 7'b0001000;   // A
+				11 : Leds7Seg = 7'b0000011;   // b
+				12 : Leds7Seg = 7'b1000110;   // C
+				13 : Leds7Seg = 7'b0100001;   // d
+				14 : Leds7Seg = 7'b0000110;   // E
+				15 : Leds7Seg = 7'b0001110;   // F
+					default : Leds7Seg = 7'b1000000;  
 			endcase
 		end
 	else
 		begin
 			case (Display4) 
-				 0  : Leds7Seg = 7'b1000000;	
-				 1  : Leds7Seg = 7'b1111001;   // 1
-				 2  : Leds7Seg = 7'b0100100;   // 2
-				 3  : Leds7Seg = 7'b0110000;   // 3
-				 4  : Leds7Seg = 7'b0011001;   // 4
-				 5  : Leds7Seg = 7'b0010010;   // 5
-				 6  : Leds7Seg = 7'b0000010;   // 6
-				 7  : Leds7Seg = 7'b1111000;   // 7
-				 8  : Leds7Seg = 7'b0000000;   // 8
-				 9  : Leds7Seg = 7'b0010000;   // 9
-				 10 : Leds7Seg = 7'b1111111;   // HI
-				 default : Leds7Seg = 7'b1111111; 
+				 	0  : Leds7Seg = 7'b1000000;	
+					1  : Leds7Seg = 7'b1111001;   // 1
+					2  : Leds7Seg = 7'b0100100;   // 2
+					3  : Leds7Seg = 7'b0110000;   // 3
+					4  : Leds7Seg = 7'b0011001;   // 4
+					5  : Leds7Seg = 7'b0010010;   // 5
+					6  : Leds7Seg = 7'b0000010;   // 6
+					7  : Leds7Seg = 7'b1111000;   // 7
+					8  : Leds7Seg = 7'b0000000;   // 8
+					9  : Leds7Seg = 7'b0010000;   // 9
+					10 : Leds7Seg = 7'b0001000;   // A
+					11 : Leds7Seg = 7'b0000011;   // b
+					12 : Leds7Seg = 7'b1000110;   // C
+					13 : Leds7Seg = 7'b0100001;   // d
+					14 : Leds7Seg = 7'b0000110;   // E
+					15 : Leds7Seg = 7'b0001110;   // F
+          default : Leds7Seg = 7'b1000000; 
 			endcase
 		end
 

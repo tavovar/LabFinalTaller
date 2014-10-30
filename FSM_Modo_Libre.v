@@ -33,7 +33,7 @@ parameter
     cero = 1'b0;
 	 
 parameter[2:0]
-	 nota0 = 3'd0,
+	 nota0 = 3'd7,
     nota1 = 3'd1,
 	 nota2 = 3'd2,
 	 nota3 = 3'd3,
@@ -48,11 +48,16 @@ parameter[2:0]
 	 f=3'd5;
 	 
 parameter[7:0]
-    A=8'd65,
-    B=8'd66,
-    C=8'd67,
-    D=8'd68;
+    A=8'd97,
+    B=8'd98,
+    C=8'd99,
+    D=8'd100;
 	 
+
+initial begin
+    notaSalida=3'd7;
+	 contar=0;
+end
 	 
 reg[2:0] state;
 reg[2:0] next;
