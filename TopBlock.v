@@ -23,10 +23,11 @@ module TopBlock(
 	input Btn1,
 	input Btn2,
 	input mRxD,
-	output reg JA,
 	output wire[6:0] Leds7Seg,
 	output wire[3:0] Enable7Seg,
-	output wire[2:0] notaSalida
+	output wire[2:0] notaSalida,
+	input [2:0]	sw,
+	output [3:0] JA
     );
 	 
 	 
@@ -73,16 +74,20 @@ Char_Serial mchar(
 	  .datoEstable(dato)
 );
 
-always@(BTN1_Clear)
-begin
-	if(BTN1_Clear) begin
-		JA=1'b1;
-	end
-	else
-	begin
-		JA=1'b0;
-	end
-end
-
+// Clock divider
+reg clk2;
+always @(posedge clk)
+	clk2 <= ~clk2;
+	
+// Instance of I2S test module
+Sonido_I2C ui2stst(
+			.clk(clk2),
+			.btn(sw),
+			.mclk(JA[0]),
+			.sclk(JA[2]),
+			.lrck(JA[1]),
+			.sdout(JA[3])
+		);
+		
 
 endmodule
