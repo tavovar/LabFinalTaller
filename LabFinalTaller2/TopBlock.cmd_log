@@ -1,0 +1,277 @@
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx4-csg225-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx4-csg225-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx4-csg225-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx4-csg225-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx4-csg225-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx4-csg225-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 
+xst -intstyle ise -ifn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.xst" -ofn "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF.ucf -p xc6slx16-csg324-3 TopBlock.ngc TopBlock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopBlock_map.ncd TopBlock.ngd TopBlock.pcf 
+par -w -intstyle ise -ol high -mt off TopBlock_map.ncd TopBlock.ncd TopBlock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopBlock.twx TopBlock.ncd -o TopBlock.twr TopBlock.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f TopBlock.ut TopBlock.ncd 

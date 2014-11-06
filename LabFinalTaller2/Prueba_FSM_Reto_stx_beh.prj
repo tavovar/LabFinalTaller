@@ -1,0 +1,4 @@
+verilog isim_temp "Timer_1_Segundo.v"
+verilog isim_temp "FSM_Modo_Reto.v"
+verilog isim_temp "Prueba_FSM_Reto.v"
+verilog isim_temp "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

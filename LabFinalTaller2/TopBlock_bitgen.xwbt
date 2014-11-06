@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\TopBlock.ncd
+OUTFILE=C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\TopBlock.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2
+LICENSE=WebPack
+USER_INFO=210931742_0_0_200
