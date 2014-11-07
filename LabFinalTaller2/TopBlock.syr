@@ -4,7 +4,7 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
@@ -105,40 +105,48 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\sc_lut.v" into library work
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\sc_lut.v" into library work
 Parsing module <sc_lut>.
 Parsing verilog file "sc_lut_init.v" included at line 39.
-Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\sine.v" into library work
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\sine.v" into library work
 Parsing module <sine>.
-Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\clkgen.v" into library work
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\clkgen.v" into library work
 Parsing module <clkgen>.
-Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Salida_I2S.v" into library work
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Timer_1_Segundo.v" into library work
+Parsing module <Timer_1Segundo>.
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Salida_I2S.v" into library work
 Parsing module <Salida_I2S>.
-Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\GeneradorFrecuencia.v" into library work
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\ROM_Seg.v" into library work
+Parsing module <ROM_Seg>.
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\GeneradorFrecuencia.v" into library work
 Parsing module <GeneradorFrecuencia>.
-WARNING:HDLCompiler:568 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\GeneradorFrecuencia.v" Line 36: Constant value is truncated to fit in <3> bits.
-WARNING:HDLCompiler:751 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\GeneradorFrecuencia.v" Line 74: Redeclaration of ansi port l_data is not allowed
-Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Clock_Div.v" into library work
+WARNING:HDLCompiler:568 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\GeneradorFrecuencia.v" Line 36: Constant value is truncated to fit in <3> bits.
+WARNING:HDLCompiler:751 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\GeneradorFrecuencia.v" Line 74: Redeclaration of ansi port l_data is not allowed
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Contador_Random_Dir.v" into library work
+Parsing module <Contador_Random_Dir>.
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Clock_Div.v" into library work
 Parsing module <Clock_Div>.
-Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\VGA_Clock_Div.v" into library work
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\VGA_Clock_Div.v" into library work
 Parsing module <VGA_Clock_Div>.
-Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Sonido_I2C.v" into library work
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Sonido_I2C.v" into library work
 Parsing module <Sonido_I2C>.
-Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Recibe_Senal.v" into library work
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Recibe_Senal.v" into library work
 Parsing module <Recibe_Senal>.
-Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\FSM_Modo_Libre.v" into library work
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\FSM_Modo_Reto.v" into library work
+Parsing module <FSM_Modo_Reto>.
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\FSM_Modo_Libre.v" into library work
 Parsing module <FSM_Modo_Libre>.
-Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\DibujarFiguras.v" into library work
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\DibujarFiguras.v" into library work
 Parsing module <DibujarFiguras>.
-Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\DeBounce.v" into library work
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\DeBounce.v" into library work
 Parsing module <DeBounce>.
-Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Controlador7Seg.v" into library work
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Controlador7Seg.v" into library work
 Parsing module <Controlador7Seg>.
-Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Contador.v" into library work
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Contador.v" into library work
 Parsing module <Contador>.
-Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Char_Serial.v" into library work
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Char_Serial.v" into library work
 Parsing module <Char_Serial>.
-Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\TopBlock.v" into library work
+Analyzing Verilog file "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\TopBlock.v" into library work
 Parsing module <TopBlock>.
 
 =========================================================================
@@ -150,27 +158,29 @@ Elaborating module <TopBlock>.
 Elaborating module <DeBounce>.
 
 Elaborating module <VGA_Clock_Div>.
-WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\VGA_Clock_Div.v" Line 41: Result of 26-bit expression is truncated to fit in 25-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\VGA_Clock_Div.v" Line 41: Result of 26-bit expression is truncated to fit in 25-bit target.
 
 Elaborating module <DibujarFiguras>.
-WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\DibujarFiguras.v" Line 80: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\DibujarFiguras.v" Line 89: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\DibujarFiguras.v" Line 101: Result of 32-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\DibujarFiguras.v" Line 102: Result of 32-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\DibujarFiguras.v" Line 133: Signal <activacionNota> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\DibujarFiguras.v" Line 149: Signal <activacionNota> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\DibujarFiguras.v" Line 165: Signal <activacionNota> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\DibujarFiguras.v" Line 181: Signal <activacionNota> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\DibujarFiguras.v" Line 88: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\DibujarFiguras.v" Line 97: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\DibujarFiguras.v" Line 109: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\DibujarFiguras.v" Line 110: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\DibujarFiguras.v" Line 138: Signal <modoActivo> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\DibujarFiguras.v" Line 141: Signal <modoPerder> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\DibujarFiguras.v" Line 147: Signal <modoPerder> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\DibujarFiguras.v" Line 165: Signal <activacionNota> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\DibujarFiguras.v" Line 181: Signal <activacionNota> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\DibujarFiguras.v" Line 220: Signal <activacionNota> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\DibujarFiguras.v" Line 222: Signal <modoGanar> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\DibujarFiguras.v" Line 246: Signal <activacionNota> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 
 Elaborating module <Contador>.
-WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Contador.v" Line 42: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Contador.v" Line 48: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Contador.v" Line 54: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Contador.v" Line 58: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Contador.v" Line 42: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Contador.v" Line 48: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Contador.v" Line 54: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Contador.v" Line 58: Result of 5-bit expression is truncated to fit in 4-bit target.
 
 Elaborating module <Controlador7Seg>.
-
-Elaborating module <FSM_Modo_Libre>.
 
 Elaborating module <Recibe_Senal>.
 
@@ -206,29 +216,90 @@ Elaborating module
 111101110111011111110111001011111111011011100011111101101001011111110110010010,INIT_3D=256'b1111111101011100111111110101001011111111010001111111111100111101111111110011001011111111001001101111111100011010111111110000111011111111000000101111111011110101111111101110100111111110110110111111111011001110111111101100000011111110101100101111111010100011,INIT_3E=256'b1111111111010101111111111101000011111111110010101111111111000100111111111011111011111111101110001111111110110001111111111010101011111111101000101111111110011011111111111001001111111111100010101111111110000010111111110111100111111111011100001111111101100110,INIT_3F=256'b1111111111111111111111111111111111111111111111101111111111111101111111111111110011111111111110101111111111111000111111111111011011111111111101001111111111110001111111111110111011111111111010111111111111100111111111111110001111111111110111111111111111011010,INITP_00=256'b0,INITP_01=256'b0,INITP_02=256'b01010101010101010101010101010101010101010101010101010101010101010101010101010101010101000
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,INITP_03=256'b0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101,INITP_04=256'b0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101,INITP_05=256'b0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101,INITP_06=256'b01010101010101010101010101010
 10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101,INITP_07=256'b0101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101>.
-WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\sine.v" Line 54: Result of 15-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\sine.v" Line 54: Result of 15-bit expression is truncated to fit in 14-bit target.
 
 Elaborating module <Salida_I2S>.
 
 Elaborating module <clkgen>.
-WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\clkgen.v" Line 33: Result of 32-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Salida_I2S.v" Line 46: Result of 4-bit expression is truncated to fit in 3-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Salida_I2S.v" Line 84: Result of 6-bit expression is truncated to fit in 5-bit target.
-WARNING:HDLCompiler:634 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Sonido_I2C.v" Line 40: Net <reset> does not have a driver.
+WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\clkgen.v" Line 33: Result of 32-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Salida_I2S.v" Line 46: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Salida_I2S.v" Line 84: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:634 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Sonido_I2C.v" Line 40: Net <reset> does not have a driver.
+
+Elaborating module <FSM_Modo_Libre>.
+
+Elaborating module <FSM_Modo_Reto>.
+
+Elaborating module <Timer_1Segundo>.
+
+Elaborating module <Contador_Random_Dir>.
+WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Contador_Random_Dir.v" Line 38: Result of 5-bit expression is truncated to fit in 4-bit target.
+
+Elaborating module <ROM_Seg>.
+WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\FSM_Modo_Reto.v" Line 257: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\FSM_Modo_Reto.v" Line 282: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\FSM_Modo_Reto.v" Line 329: Signal <busNotas> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\FSM_Modo_Reto.v" Line 332: Signal <busNotas> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\FSM_Modo_Reto.v" Line 335: Signal <busNotas> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\FSM_Modo_Reto.v" Line 338: Signal <busNotas> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\FSM_Modo_Reto.v" Line 341: Signal <busNotas> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\FSM_Modo_Reto.v" Line 344: Signal <busNotas> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\FSM_Modo_Reto.v" Line 347: Signal <busNotas> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\FSM_Modo_Reto.v" Line 350: Signal <busNotas> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\FSM_Modo_Reto.v" Line 353: Signal <busNotas> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\FSM_Modo_Reto.v" Line 356: Signal <busNotas> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\FSM_Modo_Reto.v" Line 359: Signal <busNotas> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\TopBlock.v" Line 218: Signal <resultado> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <TopBlock>.
-    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\TopBlock.v".
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\TopBlock.v".
+        a = 4'b0001
+        b = 4'b0010
+        c = 4'b0011
+        d = 4'b0100
+        e = 4'b0101
+        f = 4'b0110
+        g = 4'b0111
+        h = 4'b1000
+        i = 4'b1001
+        j = 4'b1010
+        uno = 1'b1
+        cero = 1'b0
+    Found 4-bit register for signal <state>.
     Found 1-bit register for signal <clk2>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 15                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 12                                             |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | BTN1_Clear (positive)                          |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0001                                           |
+    | Power Up State     | 0001                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:737 - Found 1-bit latch for signal <perdio>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <gano>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <reiniciarContador>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inicioReto>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <juegoActivo>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <inicioLibre>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
     Summary:
 	inferred   1 D-type flip-flop(s).
+	inferred   6 Latch(s).
+	inferred   6 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
 Unit <TopBlock> synthesized.
 
 Synthesizing Unit <DeBounce>.
-    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\DeBounce.v".
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\DeBounce.v".
     Found 1-bit register for signal <debounced>.
     Found 8-bit register for signal <rege>.
     Summary:
@@ -236,7 +307,7 @@ Synthesizing Unit <DeBounce>.
 Unit <DeBounce> synthesized.
 
 Synthesizing Unit <VGA_Clock_Div>.
-    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\VGA_Clock_Div.v".
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\VGA_Clock_Div.v".
     Found 25-bit register for signal <q>.
     Found 25-bit adder for signal <q[24]_GND_3_o_add_1_OUT> created at line 41.
     Summary:
@@ -245,7 +316,7 @@ Synthesizing Unit <VGA_Clock_Div>.
 Unit <VGA_Clock_Div> synthesized.
 
 Synthesizing Unit <DibujarFiguras>.
-    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\DibujarFiguras.v".
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\DibujarFiguras.v".
         hpixels = 800
         vlines = 521
         hpulse = 96
@@ -256,39 +327,86 @@ Synthesizing Unit <DibujarFiguras>.
         vfp = 511
     Found 10-bit register for signal <vc>.
     Found 10-bit register for signal <hc>.
-    Found 10-bit adder for signal <hc[9]_GND_4_o_add_2_OUT> created at line 80.
-    Found 10-bit adder for signal <vc[9]_GND_4_o_add_4_OUT> created at line 89.
-    Found 10-bit comparator greater for signal <hc[9]_PWR_4_o_LessThan_2_o> created at line 79
-    Found 10-bit comparator greater for signal <vc[9]_PWR_4_o_LessThan_4_o> created at line 88
-    Found 10-bit comparator greater for signal <hc[9]_GND_4_o_LessThan_11_o> created at line 101
-    Found 10-bit comparator greater for signal <vc[9]_GND_4_o_LessThan_13_o> created at line 102
-    Found 10-bit comparator lessequal for signal <n0013> created at line 128
-    Found 10-bit comparator greater for signal <vc[9]_GND_4_o_LessThan_16_o> created at line 128
-    Found 10-bit comparator lessequal for signal <n0017> created at line 131
-    Found 10-bit comparator lessequal for signal <n0019> created at line 131
-    Found 10-bit comparator lessequal for signal <n0025> created at line 147
-    Found 10-bit comparator lessequal for signal <n0027> created at line 147
-    Found 10-bit comparator lessequal for signal <n0033> created at line 163
-    Found 10-bit comparator lessequal for signal <n0035> created at line 163
-    Found 10-bit comparator lessequal for signal <n0040> created at line 179
-    Found 10-bit comparator lessequal for signal <n0042> created at line 179
+    Found 32-bit subtractor for signal <GND_4_o_GND_4_o_sub_20_OUT> created at line 141.
+    Found 32-bit subtractor for signal <GND_4_o_GND_4_o_sub_31_OUT> created at line 147.
+    Found 32-bit subtractor for signal <GND_4_o_GND_4_o_sub_63_OUT> created at line 196.
+    Found 11-bit subtractor for signal <GND_4_o_GND_4_o_sub_74_OUT> created at line 203.
+    Found 11-bit subtractor for signal <GND_4_o_GND_4_o_sub_75_OUT> created at line 203.
+    Found 32-bit subtractor for signal <n0307> created at line 203.
+    Found 32-bit subtractor for signal <GND_4_o_GND_4_o_sub_78_OUT> created at line 203.
+    Found 10-bit adder for signal <hc[9]_GND_4_o_add_2_OUT> created at line 88.
+    Found 10-bit adder for signal <vc[9]_GND_4_o_add_4_OUT> created at line 97.
+    Found 32-bit adder for signal <GND_4_o_GND_4_o_add_23_OUT> created at line 141.
+    Found 32-bit adder for signal <GND_4_o_GND_4_o_add_36_OUT> created at line 147.
+    Found 32-bit adder for signal <GND_4_o_GND_4_o_add_60_OUT> created at line 196.
+    Found 32-bit adder for signal <GND_4_o_GND_4_o_add_67_OUT> created at line 196.
+    Found 32-bit adder for signal <n0317> created at line 203.
+    Found 32-bit adder for signal <GND_4_o_GND_4_o_add_83_OUT> created at line 203.
+    Found 32-bit subtractor for signal <n0309> created at line 147.
+    Found 10-bit comparator greater for signal <hc[9]_PWR_4_o_LessThan_2_o> created at line 87
+    Found 10-bit comparator greater for signal <vc[9]_PWR_4_o_LessThan_4_o> created at line 96
+    Found 10-bit comparator greater for signal <hc[9]_GND_4_o_LessThan_11_o> created at line 109
+    Found 10-bit comparator greater for signal <vc[9]_GND_4_o_LessThan_13_o> created at line 110
+    Found 10-bit comparator lessequal for signal <n0013> created at line 136
+    Found 10-bit comparator greater for signal <vc[9]_GND_4_o_LessThan_16_o> created at line 136
+    Found 32-bit comparator lessequal for signal <n0019> created at line 141
+    Found 32-bit comparator greater for signal <GND_4_o_GND_4_o_LessThan_25_o> created at line 141
+    Found 32-bit comparator lessequal for signal <n0027> created at line 147
+    Found 32-bit comparator greater for signal <GND_4_o_GND_4_o_LessThan_38_o> created at line 147
+    Found 10-bit comparator lessequal for signal <n0034> created at line 156
+    Found 10-bit comparator lessequal for signal <n0036> created at line 156
+    Found 10-bit comparator lessequal for signal <n0039> created at line 156
+    Found 10-bit comparator lessequal for signal <n0043> created at line 163
+    Found 10-bit comparator lessequal for signal <n0045> created at line 163
+    Found 10-bit comparator lessequal for signal <n0053> created at line 179
+    Found 10-bit comparator lessequal for signal <n0055> created at line 179
+    Found 10-bit comparator lessequal for signal <n0058> created at line 179
+    Found 10-bit comparator lessequal for signal <n0060> created at line 179
+    Found 32-bit comparator lessequal for signal <n0070> created at line 196
+    Found 32-bit comparator greater for signal <GND_4_o_GND_4_o_LessThan_69_o> created at line 196
+    Found 10-bit comparator lessequal for signal <n0075> created at line 196
+    Found 10-bit comparator greater for signal <hc[9]_GND_4_o_LessThan_71_o> created at line 196
+    Found 32-bit comparator lessequal for signal <n0086> created at line 203
+    Found 32-bit comparator greater for signal <GND_4_o_GND_4_o_LessThan_85_o> created at line 203
+    Found 10-bit comparator lessequal for signal <n0091> created at line 203
+    Found 10-bit comparator greater for signal <hc[9]_GND_4_o_LessThan_87_o> created at line 203
+    Found 10-bit comparator lessequal for signal <n0095> created at line 203
+    Found 10-bit comparator greater for signal <vc[9]_GND_4_o_LessThan_89_o> created at line 203
+    Found 10-bit comparator lessequal for signal <n0103> created at line 210
+    Found 10-bit comparator lessequal for signal <n0108> created at line 210
+    Found 10-bit comparator lessequal for signal <n0112> created at line 212
+    Found 10-bit comparator lessequal for signal <n0115> created at line 212
+    Found 10-bit comparator lessequal for signal <n0119> created at line 212
+    Found 10-bit comparator lessequal for signal <n0121> created at line 212
+    Found 10-bit comparator lessequal for signal <n0127> created at line 222
+    Found 10-bit comparator lessequal for signal <n0129> created at line 222
+    Found 10-bit comparator lessequal for signal <n0132> created at line 222
+    Found 10-bit comparator lessequal for signal <n0134> created at line 222
+    Found 10-bit comparator lessequal for signal <n0137> created at line 222
+    Found 10-bit comparator lessequal for signal <n0139> created at line 222
+    Found 10-bit comparator lessequal for signal <n0144> created at line 222
+    Found 10-bit comparator lessequal for signal <n0146> created at line 222
+    Found 10-bit comparator lessequal for signal <n0158> created at line 244
+    Found 10-bit comparator lessequal for signal <n0160> created at line 244
+    Found 10-bit comparator lessequal for signal <n0163> created at line 244
+    Found 10-bit comparator lessequal for signal <n0165> created at line 244
     Summary:
-	inferred   2 Adder/Subtractor(s).
+	inferred  16 Adder/Subtractor(s).
 	inferred  20 D-type flip-flop(s).
-	inferred  14 Comparator(s).
-	inferred  14 Multiplexer(s).
+	inferred  47 Comparator(s).
+	inferred  38 Multiplexer(s).
 Unit <DibujarFiguras> synthesized.
 
 Synthesizing Unit <Contador>.
-    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Contador.v".
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Contador.v".
     Found 4-bit register for signal <decimas>.
     Found 4-bit register for signal <centesimas>.
     Found 4-bit register for signal <unidadesMillar>.
     Found 4-bit register for signal <unidades>.
-    Found 4-bit adder for signal <decimas[0]_GND_5_o_add_1_OUT> created at line 42.
-    Found 4-bit adder for signal <centesimas[0]_GND_5_o_add_3_OUT> created at line 48.
-    Found 4-bit adder for signal <unidadesMillar[0]_GND_5_o_add_5_OUT> created at line 54.
-    Found 4-bit adder for signal <unidades[0]_GND_5_o_add_6_OUT> created at line 58.
+    Found 4-bit adder for signal <decimas[0]_GND_6_o_add_1_OUT> created at line 42.
+    Found 4-bit adder for signal <centesimas[0]_GND_6_o_add_3_OUT> created at line 48.
+    Found 4-bit adder for signal <unidadesMillar[0]_GND_6_o_add_5_OUT> created at line 54.
+    Found 4-bit adder for signal <unidades[0]_GND_6_o_add_6_OUT> created at line 58.
     Summary:
 	inferred   4 Adder/Subtractor(s).
 	inferred  16 D-type flip-flop(s).
@@ -296,7 +414,7 @@ Synthesizing Unit <Contador>.
 Unit <Contador> synthesized.
 
 Synthesizing Unit <Controlador7Seg>.
-    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Controlador7Seg.v".
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Controlador7Seg.v".
         Seg1 = 4'b1110
         Seg2 = 4'b1101
         Seg3 = 4'b1011
@@ -308,7 +426,7 @@ Synthesizing Unit <Controlador7Seg>.
     Found 4-bit register for signal <Enable7Seg>.
     Found 32-bit register for signal <count>.
     Found 4-bit register for signal <Display1>.
-    Found finite state machine <FSM_0> for signal <Enable7Seg>.
+    Found finite state machine <FSM_1> for signal <Enable7Seg>.
     -----------------------------------------------------------------------
     | States             | 4                                              |
     | Transitions        | 8                                              |
@@ -318,11 +436,11 @@ Synthesizing Unit <Controlador7Seg>.
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 32-bit adder for signal <count[31]_GND_6_o_add_13_OUT> created at line 77.
-    Found 16x7-bit Read Only RAM for signal <Display1[3]_GND_6_o_wide_mux_25_OUT>
-    Found 16x7-bit Read Only RAM for signal <Display2[3]_GND_6_o_wide_mux_27_OUT>
-    Found 16x7-bit Read Only RAM for signal <Display3[3]_GND_6_o_wide_mux_29_OUT>
-    Found 16x7-bit Read Only RAM for signal <Display4[3]_GND_6_o_wide_mux_30_OUT>
+    Found 32-bit adder for signal <count[31]_GND_7_o_add_13_OUT> created at line 77.
+    Found 16x7-bit Read Only RAM for signal <Display1[3]_GND_7_o_wide_mux_25_OUT>
+    Found 16x7-bit Read Only RAM for signal <Display2[3]_GND_7_o_wide_mux_27_OUT>
+    Found 16x7-bit Read Only RAM for signal <Display3[3]_GND_7_o_wide_mux_29_OUT>
+    Found 16x7-bit Read Only RAM for signal <Display4[3]_GND_7_o_wide_mux_30_OUT>
     Summary:
 	inferred   4 RAM(s).
 	inferred   1 Adder/Subtractor(s).
@@ -331,8 +449,140 @@ Synthesizing Unit <Controlador7Seg>.
 	inferred   1 Finite State Machine(s).
 Unit <Controlador7Seg> synthesized.
 
+Synthesizing Unit <Recibe_Senal>.
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Recibe_Senal.v".
+        ClkFrequency = 100000000
+        Baud = 9600
+        Oversampling = 16
+    Found 2-bit register for signal <Filter_cnt>.
+    Found 1-bit register for signal <RxD_bit>.
+    Found 4-bit register for signal <OversamplingCnt>.
+    Found 4-bit register for signal <RxD_state>.
+    Found 8-bit register for signal <RxD_data>.
+    Found 1-bit register for signal <RxD_data_ready>.
+    Found 2-bit register for signal <RxD_sync>.
+    Found finite state machine <FSM_2> for signal <RxD_state>.
+    -----------------------------------------------------------------------
+    | States             | 11                                             |
+    | Transitions        | 32                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | 0000                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 2-bit subtractor for signal <Filter_cnt[1]_GND_8_o_sub_10_OUT> created at line 65.
+    Found 2-bit adder for signal <Filter_cnt[1]_GND_8_o_add_6_OUT> created at line 63.
+    Found 4-bit adder for signal <OversamplingCnt[3]_GND_8_o_add_18_OUT> created at line 76.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <Recibe_Senal> synthesized.
+
+Synthesizing Unit <Clock_Div>.
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Clock_Div.v".
+        ClkFrequency = 100000000
+        Baud = 9600
+        Oversampling = 16
+    Found 23-bit register for signal <Acc>.
+    Found 23-bit adder for signal <GND_9_o_BUS_0793_mux_2_OUT> created at line 34.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  23 D-type flip-flop(s).
+Unit <Clock_Div> synthesized.
+
+Synthesizing Unit <Char_Serial>.
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Char_Serial.v".
+    Found 8-bit register for signal <datoEstable>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <Char_Serial> synthesized.
+
+Synthesizing Unit <Sonido_I2C>.
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Sonido_I2C.v".
+WARNING:Xst:653 - Signal <reset> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <Sonido_I2C> synthesized.
+
+Synthesizing Unit <GeneradorFrecuencia>.
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\GeneradorFrecuencia.v".
+        FREQ1 = 103079215
+        FREQ2 = 83079215
+        FREQ3 = 32979215
+        FREQ4 = 19979215
+        nota0 = 3'b000
+        nota1 = 3'b001
+        nota2 = 3'b010
+        nota3 = 3'b011
+        nota4 = 3'b100
+    Found 32-bit register for signal <phase>.
+    Found 24-bit register for signal <l_data>.
+    Found 24-bit register for signal <r_data>.
+    Found 32-bit register for signal <freq>.
+    Found 32-bit adder for signal <phase[31]_freq[31]_add_11_OUT> created at line 65.
+    Found 8x32-bit Read Only RAM for signal <GND_12_o_GND_12_o_mux_8_OUT>
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred 112 D-type flip-flop(s).
+Unit <GeneradorFrecuencia> synthesized.
+
+Synthesizing Unit <sine>.
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\sine.v".
+        psz = 12
+        osz = 14
+    Found 1-bit register for signal <sdid1>.
+    Found 14-bit register for signal <sin>.
+    Found 1-bit register for signal <sdid0>.
+    Found 15-bit adder for signal <n0011> created at line 54.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  16 D-type flip-flop(s).
+Unit <sine> synthesized.
+
+Synthesizing Unit <sc_lut>.
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\sc_lut.v".
+        asz = 10
+        dsz = 14
+    Found 10-bit register for signal <ADDR>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+Unit <sc_lut> synthesized.
+
+Synthesizing Unit <Salida_I2S>.
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Salida_I2S.v".
+    Found 1-bit register for signal <p_sclk>.
+    Found 48-bit register for signal <sreg>.
+    Found 1-bit register for signal <sdout>.
+    Found 5-bit register for signal <lrcnt>.
+    Found 1-bit register for signal <lrclk>.
+    Found 1-bit register for signal <sclk_p0>.
+    Found 1-bit register for signal <sclk>.
+    Found 3-bit register for signal <scnt>.
+    Found 3-bit adder for signal <scnt[2]_GND_16_o_add_1_OUT> created at line 46.
+    Found 5-bit adder for signal <lrcnt[4]_GND_16_o_add_14_OUT> created at line 84.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  61 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <Salida_I2S> synthesized.
+
+Synthesizing Unit <clkgen>.
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\clkgen.v".
+    Found 1-bit register for signal <rate>.
+    Found 9-bit register for signal <cnt>.
+    Found 9-bit subtractor for signal <GND_17_o_GND_17_o_sub_2_OUT<8:0>> created at line 33.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  10 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <clkgen> synthesized.
+
 Synthesizing Unit <FSM_Modo_Libre>.
-    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\FSM_Modo_Libre.v".
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\FSM_Modo_Libre.v".
         uno = 1'b1
         cero = 1'b0
         nota0 = 3'b000
@@ -351,7 +601,7 @@ Synthesizing Unit <FSM_Modo_Libre>.
         C = 8'b01100011
         D = 8'b01100100
     Found 3-bit register for signal <state>.
-    Found finite state machine <FSM_1> for signal <state>.
+    Found finite state machine <FSM_3> for signal <state>.
     -----------------------------------------------------------------------
     | States             | 6                                              |
     | Transitions        | 15                                             |
@@ -374,187 +624,156 @@ WARNING:Xst:737 - Found 1-bit latch for signal <notaSalida<0>>. Latches may be g
 	inferred   1 Finite State Machine(s).
 Unit <FSM_Modo_Libre> synthesized.
 
-Synthesizing Unit <Recibe_Senal>.
-    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Recibe_Senal.v".
-        ClkFrequency = 100000000
-        Baud = 9600
-        Oversampling = 16
-    Found 2-bit register for signal <Filter_cnt>.
-    Found 1-bit register for signal <RxD_bit>.
-    Found 4-bit register for signal <OversamplingCnt>.
-    Found 4-bit register for signal <RxD_state>.
-    Found 8-bit register for signal <RxD_data>.
-    Found 1-bit register for signal <RxD_data_ready>.
-    Found 2-bit register for signal <RxD_sync>.
-    Found finite state machine <FSM_2> for signal <RxD_state>.
-    -----------------------------------------------------------------------
-    | States             | 11                                             |
-    | Transitions        | 32                                             |
-    | Inputs             | 3                                              |
-    | Outputs            | 3                                              |
-    | Clock              | clk (rising_edge)                              |
-    | Power Up State     | 0000                                           |
-    | Encoding           | auto                                           |
-    | Implementation     | LUT                                            |
-    -----------------------------------------------------------------------
-    Found 2-bit subtractor for signal <Filter_cnt[1]_GND_13_o_sub_10_OUT> created at line 65.
-    Found 2-bit adder for signal <Filter_cnt[1]_GND_13_o_add_6_OUT> created at line 63.
-    Found 4-bit adder for signal <OversamplingCnt[3]_GND_13_o_add_18_OUT> created at line 76.
-    Summary:
-	inferred   2 Adder/Subtractor(s).
-	inferred  18 D-type flip-flop(s).
-	inferred   1 Finite State Machine(s).
-Unit <Recibe_Senal> synthesized.
-
-Synthesizing Unit <Clock_Div>.
-    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Clock_Div.v".
-        ClkFrequency = 100000000
-        Baud = 9600
-        Oversampling = 16
-    Found 23-bit register for signal <Acc>.
-    Found 23-bit adder for signal <GND_14_o_BUS_0793_mux_2_OUT> created at line 34.
-    Summary:
-	inferred   1 Adder/Subtractor(s).
-	inferred  23 D-type flip-flop(s).
-Unit <Clock_Div> synthesized.
-
-Synthesizing Unit <Char_Serial>.
-    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Char_Serial.v".
-    Found 8-bit register for signal <datoEstable>.
-    Summary:
-	inferred   8 D-type flip-flop(s).
-Unit <Char_Serial> synthesized.
-
-Synthesizing Unit <Sonido_I2C>.
-    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Sonido_I2C.v".
-WARNING:Xst:653 - Signal <reset> is used but never assigned. This sourceless signal will be automatically connected to value GND.
-    Summary:
-	no macro.
-Unit <Sonido_I2C> synthesized.
-
-Synthesizing Unit <GeneradorFrecuencia>.
-    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\GeneradorFrecuencia.v".
-        FREQ1 = 103079215
-        FREQ2 = 83079215
-        FREQ3 = 32979215
-        FREQ4 = 19979215
+Synthesizing Unit <FSM_Modo_Reto>.
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\FSM_Modo_Reto.v".
+        uno = 1'b1
+        cero = 1'b0
         nota0 = 3'b000
         nota1 = 3'b001
         nota2 = 3'b010
         nota3 = 3'b011
         nota4 = 3'b100
-    Found 32-bit register for signal <phase>.
-    Found 24-bit register for signal <l_data>.
-    Found 24-bit register for signal <r_data>.
-    Found 32-bit register for signal <freq>.
-    Found 32-bit adder for signal <phase[31]_freq[31]_add_11_OUT> created at line 65.
-    Found 8x32-bit Read Only RAM for signal <GND_17_o_GND_17_o_mux_8_OUT>
+        a = 4'b0001
+        b = 4'b0010
+        c = 4'b0011
+        d = 4'b0100
+        e = 4'b0101
+        f = 4'b0110
+        g = 4'b0111
+        h = 4'b1000
+        i = 4'b1001
+        j = 4'b1010
+        k = 4'b1011
+        l = 4'b1100
+        m = 4'b1101
+        n = 4'b1110
+        o = 4'b1111
+        A = 8'b01100001
+        B = 8'b01100010
+        C = 8'b01100011
+        D = 8'b01100100
+    Found 4-bit register for signal <state>.
+    Found 1-bit register for signal <contarNotas>.
+    Found 1-bit register for signal <resultado>.
+    Found 1-bit register for signal <juegoListo>.
+    Found 3-bit register for signal <notaSalida>.
+    Found 4-bit register for signal <cuenta>.
+    Found 1-bit register for signal <conto>.
+    Found 1-bit register for signal <inicioTimer>.
+    Found 1-bit register for signal <cargarSecuencia>.
+    Found finite state machine <FSM_4> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 13                                             |
+    | Transitions        | 21                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 10                                             |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0001                                           |
+    | Power Up State     | 0001                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 4-bit adder for signal <cuenta[3]_GND_24_o_add_22_OUT> created at line 282.
+    Found 3-bit 12-to-1 multiplexer for signal <notaActualMemoria> created at line 327.
+    Found 3-bit comparator equal for signal <notaActualUsuario[2]_notaActualMemoria[2]_equal_8_o> created at line 167
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  13 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   9 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <FSM_Modo_Reto> synthesized.
+
+Synthesizing Unit <Timer_1Segundo>.
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Timer_1_Segundo.v".
+    Found 1-bit register for signal <termino>.
+    Found 1-bit register for signal <listo>.
+    Found 32-bit register for signal <cuenta>.
+    Found 32-bit adder for signal <cuenta[31]_GND_25_o_add_4_OUT> created at line 56.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  34 D-type flip-flop(s).
+Unit <Timer_1Segundo> synthesized.
+
+Synthesizing Unit <Contador_Random_Dir>.
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\Contador_Random_Dir.v".
+    Found 4-bit register for signal <posicion>.
+    Found 4-bit register for signal <contador>.
+    Found 4-bit adder for signal <contador[3]_GND_26_o_add_2_OUT> created at line 38.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+Unit <Contador_Random_Dir> synthesized.
+
+Synthesizing Unit <ROM_Seg>.
+    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller\LabFinalTaller2\ROM_Seg.v".
+    Found 30-bit register for signal <dato>.
+    Found 16x30-bit Read Only RAM for signal <dir[3]_GND_27_o_wide_mux_1_OUT>
     Summary:
 	inferred   1 RAM(s).
-	inferred   1 Adder/Subtractor(s).
-	inferred 112 D-type flip-flop(s).
-Unit <GeneradorFrecuencia> synthesized.
-
-Synthesizing Unit <sine>.
-    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\sine.v".
-        psz = 12
-        osz = 14
-    Found 1-bit register for signal <sdid1>.
-    Found 14-bit register for signal <sin>.
-    Found 1-bit register for signal <sdid0>.
-    Found 15-bit adder for signal <n0011> created at line 54.
-    Summary:
-	inferred   1 Adder/Subtractor(s).
-	inferred  16 D-type flip-flop(s).
-Unit <sine> synthesized.
-
-Synthesizing Unit <sc_lut>.
-    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\sc_lut.v".
-        asz = 10
-        dsz = 14
-    Found 10-bit register for signal <ADDR>.
-    Summary:
-	inferred  10 D-type flip-flop(s).
-Unit <sc_lut> synthesized.
-
-Synthesizing Unit <Salida_I2S>.
-    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Salida_I2S.v".
-    Found 1-bit register for signal <p_sclk>.
-    Found 48-bit register for signal <sreg>.
-    Found 1-bit register for signal <sdout>.
-    Found 5-bit register for signal <lrcnt>.
-    Found 1-bit register for signal <lrclk>.
-    Found 1-bit register for signal <sclk_p0>.
-    Found 1-bit register for signal <sclk>.
-    Found 3-bit register for signal <scnt>.
-    Found 3-bit adder for signal <scnt[2]_GND_21_o_add_1_OUT> created at line 46.
-    Found 5-bit adder for signal <lrcnt[4]_GND_21_o_add_14_OUT> created at line 84.
-    Summary:
-	inferred   2 Adder/Subtractor(s).
-	inferred  61 D-type flip-flop(s).
-	inferred   2 Multiplexer(s).
-Unit <Salida_I2S> synthesized.
-
-Synthesizing Unit <clkgen>.
-    Related source file is "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\clkgen.v".
-    Found 1-bit register for signal <rate>.
-    Found 9-bit register for signal <cnt>.
-    Found 9-bit subtractor for signal <GND_22_o_GND_22_o_sub_2_OUT<8:0>> created at line 33.
-    Summary:
-	inferred   1 Adder/Subtractor(s).
-	inferred  10 D-type flip-flop(s).
-	inferred   1 Multiplexer(s).
-Unit <clkgen> synthesized.
+	inferred  30 D-type flip-flop(s).
+Unit <ROM_Seg> synthesized.
 
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 5
+# RAMs                                                 : 6
+ 16x30-bit single-port Read Only RAM                   : 1
  16x7-bit single-port Read Only RAM                    : 4
  8x32-bit single-port Read Only RAM                    : 1
-# Adders/Subtractors                                   : 16
+# Adders/Subtractors                                   : 33
  10-bit adder                                          : 2
+ 11-bit subtractor                                     : 2
  15-bit adder                                          : 1
  2-bit addsub                                          : 1
  23-bit adder                                          : 1
  25-bit adder                                          : 1
  3-bit adder                                           : 1
- 32-bit adder                                          : 2
- 4-bit adder                                           : 5
+ 32-bit adder                                          : 9
+ 32-bit subtractor                                     : 6
+ 4-bit adder                                           : 7
  5-bit adder                                           : 1
  9-bit subtractor                                      : 1
-# Registers                                            : 43
- 1-bit register                                        : 13
+# Registers                                            : 57
+ 1-bit register                                        : 21
  10-bit register                                       : 3
  14-bit register                                       : 1
  2-bit register                                        : 2
  23-bit register                                       : 1
  24-bit register                                       : 2
  25-bit register                                       : 1
- 3-bit register                                        : 1
- 32-bit register                                       : 3
- 4-bit register                                        : 9
+ 3-bit register                                        : 2
+ 30-bit register                                       : 1
+ 32-bit register                                       : 4
+ 4-bit register                                        : 12
  48-bit register                                       : 1
  5-bit register                                        : 1
  8-bit register                                        : 4
  9-bit register                                        : 1
-# Latches                                              : 4
- 1-bit latch                                           : 4
-# Comparators                                          : 14
- 10-bit comparator greater                             : 5
- 10-bit comparator lessequal                           : 9
-# Multiplexers                                         : 25
+# Latches                                              : 10
+ 1-bit latch                                           : 10
+# Comparators                                          : 48
+ 10-bit comparator greater                             : 8
+ 10-bit comparator lessequal                           : 31
+ 3-bit comparator equal                                : 1
+ 32-bit comparator greater                             : 4
+ 32-bit comparator lessequal                           : 4
+# Multiplexers                                         : 64
+ 1-bit 2-to-1 multiplexer                              : 1
  10-bit 2-to-1 multiplexer                             : 2
- 2-bit 2-to-1 multiplexer                              : 5
- 3-bit 2-to-1 multiplexer                              : 7
+ 2-bit 2-to-1 multiplexer                              : 11
+ 3-bit 12-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 31
  32-bit 2-to-1 multiplexer                             : 2
- 4-bit 2-to-1 multiplexer                              : 3
+ 4-bit 2-to-1 multiplexer                              : 10
  48-bit 2-to-1 multiplexer                             : 1
  5-bit 2-to-1 multiplexer                              : 1
  7-bit 2-to-1 multiplexer                              : 3
  9-bit 2-to-1 multiplexer                              : 1
-# FSMs                                                 : 3
+# FSMs                                                 : 5
 # Xors                                                 : 2
  10-bit xor2                                           : 1
  15-bit xor2                                           : 1
@@ -575,8 +794,12 @@ The following registers are absorbed into counter <unidades>: 1 register on sign
 The following registers are absorbed into counter <unidadesMillar>: 1 register on signal <unidadesMillar>.
 Unit <Contador> synthesized (advanced).
 
+Synthesizing (advanced) Unit <Contador_Random_Dir>.
+The following registers are absorbed into counter <contador>: 1 register on signal <contador>.
+Unit <Contador_Random_Dir> synthesized (advanced).
+
 Synthesizing (advanced) Unit <Controlador7Seg>.
-INFO:Xst:3231 - The small RAM <Mram_Display1[3]_GND_6_o_wide_mux_25_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram_Display1[3]_GND_7_o_wide_mux_25_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -587,7 +810,7 @@ INFO:Xst:3231 - The small RAM <Mram_Display1[3]_GND_6_o_wide_mux_25_OUT> will be
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to internal node          |          |
     -----------------------------------------------------------------------
-INFO:Xst:3231 - The small RAM <Mram_Display2[3]_GND_6_o_wide_mux_27_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram_Display2[3]_GND_7_o_wide_mux_27_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -598,7 +821,7 @@ INFO:Xst:3231 - The small RAM <Mram_Display2[3]_GND_6_o_wide_mux_27_OUT> will be
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to internal node          |          |
     -----------------------------------------------------------------------
-INFO:Xst:3231 - The small RAM <Mram_Display3[3]_GND_6_o_wide_mux_29_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram_Display3[3]_GND_7_o_wide_mux_29_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -609,7 +832,7 @@ INFO:Xst:3231 - The small RAM <Mram_Display3[3]_GND_6_o_wide_mux_29_OUT> will be
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to internal node          |          |
     -----------------------------------------------------------------------
-INFO:Xst:3231 - The small RAM <Mram_Display4[3]_GND_6_o_wide_mux_30_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram_Display4[3]_GND_7_o_wide_mux_30_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -629,7 +852,7 @@ Unit <DibujarFiguras> synthesized (advanced).
 
 Synthesizing (advanced) Unit <GeneradorFrecuencia>.
 The following registers are absorbed into accumulator <phase>: 1 register on signal <phase>.
-INFO:Xst:3231 - The small RAM <Mram_GND_17_o_GND_17_o_mux_8_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram_GND_12_o_GND_12_o_mux_8_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -642,6 +865,20 @@ INFO:Xst:3231 - The small RAM <Mram_GND_17_o_GND_17_o_mux_8_OUT> will be impleme
     -----------------------------------------------------------------------
 Unit <GeneradorFrecuencia> synthesized (advanced).
 
+Synthesizing (advanced) Unit <ROM_Seg>.
+INFO:Xst:3231 - The small RAM <Mram_dir[3]_GND_27_o_wide_mux_1_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 30-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <dir>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <ROM_Seg> synthesized (advanced).
+
 Synthesizing (advanced) Unit <Recibe_Senal>.
 The following registers are absorbed into counter <Filter_cnt>: 1 register on signal <Filter_cnt>.
 The following registers are absorbed into counter <OversamplingCnt>: 1 register on signal <OversamplingCnt>.
@@ -651,6 +888,10 @@ Synthesizing (advanced) Unit <Salida_I2S>.
 The following registers are absorbed into counter <scnt>: 1 register on signal <scnt>.
 The following registers are absorbed into counter <lrcnt>: 1 register on signal <lrcnt>.
 Unit <Salida_I2S> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Timer_1Segundo>.
+The following registers are absorbed into counter <cuenta>: 1 register on signal <cuenta>.
+Unit <Timer_1Segundo> synthesized (advanced).
 
 Synthesizing (advanced) Unit <VGA_Clock_Div>.
 The following registers are absorbed into counter <q>: 1 register on signal <q>.
@@ -664,35 +905,47 @@ Unit <clkgen> synthesized (advanced).
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 5
+# RAMs                                                 : 6
+ 16x30-bit single-port distributed Read Only RAM       : 1
  16x7-bit single-port distributed Read Only RAM        : 4
  8x32-bit single-port distributed Read Only RAM        : 1
-# Adders/Subtractors                                   : 3
+# Adders/Subtractors                                   : 18
+ 11-bit subtractor                                     : 2
  14-bit adder                                          : 1
  23-bit adder                                          : 1
- 32-bit adder                                          : 1
-# Counters                                             : 12
+ 31-bit subtractor                                     : 1
+ 32-bit adder                                          : 7
+ 32-bit subtractor                                     : 5
+ 4-bit adder                                           : 1
+# Counters                                             : 14
  10-bit up counter                                     : 2
  2-bit updown counter                                  : 1
  25-bit up counter                                     : 1
  3-bit up counter                                      : 1
- 4-bit up counter                                      : 5
+ 32-bit up counter                                     : 1
+ 4-bit up counter                                      : 6
  5-bit up counter                                      : 1
  9-bit down counter                                    : 1
 # Accumulators                                         : 1
  32-bit up accumulator                                 : 1
-# Registers                                            : 270
- Flip-Flops                                            : 270
-# Comparators                                          : 14
- 10-bit comparator greater                             : 5
- 10-bit comparator lessequal                           : 9
-# Multiplexers                                         : 18
- 2-bit 2-to-1 multiplexer                              : 5
- 3-bit 2-to-1 multiplexer                              : 7
+# Registers                                            : 319
+ Flip-Flops                                            : 319
+# Comparators                                          : 48
+ 10-bit comparator greater                             : 8
+ 10-bit comparator lessequal                           : 31
+ 3-bit comparator equal                                : 1
+ 32-bit comparator greater                             : 4
+ 32-bit comparator lessequal                           : 4
+# Multiplexers                                         : 57
+ 1-bit 2-to-1 multiplexer                              : 1
+ 2-bit 2-to-1 multiplexer                              : 11
+ 3-bit 12-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 31
  32-bit 2-to-1 multiplexer                             : 2
+ 4-bit 2-to-1 multiplexer                              : 7
  48-bit 2-to-1 multiplexer                             : 1
  7-bit 2-to-1 multiplexer                              : 3
-# FSMs                                                 : 3
+# FSMs                                                 : 5
 # Xors                                                 : 2
  10-bit xor2                                           : 1
  15-bit xor2                                           : 1
@@ -713,7 +966,23 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <r_data_7> (without 
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <r_data_8> (without init value) has a constant value of 0 in block <GeneradorFrecuencia>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <r_data_9> (without init value) has a constant value of 0 in block <GeneradorFrecuencia>. This FF/Latch will be trimmed during the optimization process.
 Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <display/FSM_0> on signal <Enable7Seg[1:2]> with sequential encoding.
+Optimizing FSM <FSM_0> on signal <state[1:10]> with one-hot encoding.
+---------------------
+ State | Encoding
+---------------------
+ 0001  | 0000000001
+ 0010  | 0000000010
+ 0011  | 0000000100
+ 0101  | 0000001000
+ 0100  | 0000010000
+ 0110  | 0000100000
+ 0111  | 0001000000
+ 1000  | 0010000000
+ 1010  | 0100000000
+ 1001  | 1000000000
+---------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <display/FSM_1> on signal <Enable7Seg[1:2]> with sequential encoding.
 -------------------
  State | Encoding
 -------------------
@@ -721,18 +990,6 @@ Optimizing FSM <display/FSM_0> on signal <Enable7Seg[1:2]> with sequential encod
  1011  | 01
  1110  | 10
  0111  | 11
--------------------
-Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <modo_Libre/FSM_1> on signal <state[1:6]> with one-hot encoding.
--------------------
- State | Encoding
--------------------
- 001   | 000001
- 010   | 000010
- 110   | 000100
- 101   | 001000
- 100   | 010000
- 011   | 100000
 -------------------
 Analyzing FSM <MFsm> for best encoding.
 Optimizing FSM <mRecibeSerial/FSM_2> on signal <RxD_state[1:4]> with user encoding.
@@ -751,6 +1008,41 @@ Optimizing FSM <mRecibeSerial/FSM_2> on signal <RxD_state[1:4]> with user encodi
  1111  | 1111
  0010  | 0010
 -------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <modo_Libre/FSM_3> on signal <state[1:3]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 001   | 000
+ 010   | 001
+ 110   | 010
+ 101   | 011
+ 100   | 100
+ 011   | 101
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <modo_Reto/FSM_4> on signal <state[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0001  | 0001
+ 0010  | 0010
+ 0011  | 0011
+ 0100  | 0100
+ 0101  | 0101
+ 0110  | 0110
+ 1000  | 1000
+ 0111  | 0111
+ 1100  | 1100
+ 1101  | 1101
+ 1001  | 1001
+ 1010  | 1010
+ 1011  | 1011
+-------------------
+WARNING:Xst:1294 - Latch <notaSalida_2> is equivalent to a wire in block <FSM_Modo_Libre>.
+WARNING:Xst:1294 - Latch <contar> is equivalent to a wire in block <FSM_Modo_Libre>.
+WARNING:Xst:1294 - Latch <notaSalida_1> is equivalent to a wire in block <FSM_Modo_Libre>.
+WARNING:Xst:1294 - Latch <notaSalida_0> is equivalent to a wire in block <FSM_Modo_Libre>.
 WARNING:Xst:1710 - FF/Latch <freq_12> (without init value) has a constant value of 1 in block <GeneradorFrecuencia>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <freq_19> (without init value) has a constant value of 0 in block <GeneradorFrecuencia>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <freq_27> (without init value) has a constant value of 0 in block <GeneradorFrecuencia>. This FF/Latch will be trimmed during the optimization process.
@@ -783,15 +1075,15 @@ WARNING:Xst:2677 - Node <MOD_vga_clockdiv/q_22> of sequential type is unconnecte
 WARNING:Xst:2677 - Node <MOD_vga_clockdiv/q_23> of sequential type is unconnected in block <TopBlock>.
 WARNING:Xst:2677 - Node <MOD_vga_clockdiv/q_24> of sequential type is unconnected in block <TopBlock>.
 INFO:Xst:1901 - Instance RAMB16_inst in unit sc_lut of type RAMB16_S18 has been replaced by RAMB16BWER
-INFO:Xst:2261 - The FF/Latch <freq_16> in Unit <GeneradorFrecuencia> is equivalent to the following 3 FFs/Latches, which will be removed : <freq_17> <freq_22> <freq_23> 
 INFO:Xst:2261 - The FF/Latch <freq_0> in Unit <GeneradorFrecuencia> is equivalent to the following 4 FFs/Latches, which will be removed : <freq_1> <freq_2> <freq_3> <freq_21> 
 INFO:Xst:2261 - The FF/Latch <freq_6> in Unit <GeneradorFrecuencia> is equivalent to the following 2 FFs/Latches, which will be removed : <freq_7> <freq_9> 
+INFO:Xst:2261 - The FF/Latch <freq_16> in Unit <GeneradorFrecuencia> is equivalent to the following 3 FFs/Latches, which will be removed : <freq_17> <freq_22> <freq_23> 
 
 Optimizing unit <Clock_Div> ...
 
-Optimizing unit <sc_lut> ...
-
 Optimizing unit <Char_Serial> ...
+
+Optimizing unit <sc_lut> ...
 
 Optimizing unit <TopBlock> ...
 
@@ -801,15 +1093,17 @@ Optimizing unit <Controlador7Seg> ...
 
 Optimizing unit <Recibe_Senal> ...
 
-Optimizing unit <DibujarFiguras> ...
+Optimizing unit <ROM_Seg> ...
 
-Optimizing unit <Contador> ...
+Optimizing unit <DibujarFiguras> ...
 
 Optimizing unit <GeneradorFrecuencia> ...
 
 Optimizing unit <sine> ...
 
 Optimizing unit <Salida_I2S> ...
+
+Optimizing unit <Contador> ...
 WARNING:Xst:1710 - FF/Latch <ui2stst/ui2s/sreg_9> (without init value) has a constant value of 0 in block <TopBlock>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <ui2stst/ui2s/sreg_8> (without init value) has a constant value of 0 in block <TopBlock>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <ui2stst/ui2s/sreg_7> (without init value) has a constant value of 0 in block <TopBlock>. This FF/Latch will be trimmed during the optimization process.
@@ -838,15 +1132,20 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <display/count_28> (
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <display/count_29> (without init value) has a constant value of 0 in block <TopBlock>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <display/count_30> (without init value) has a constant value of 0 in block <TopBlock>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <display/count_31> (without init value) has a constant value of 0 in block <TopBlock>. This FF/Latch will be trimmed during the optimization process.
-INFO:Xst:2261 - The FF/Latch <clk2> in Unit <TopBlock> is equivalent to the following FF/Latch, which will be removed : <mRecibeSerial/tickgen/Acc_1> 
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <modo_Reto/timerSegundo/cuenta_27> has a constant value of 0 in block <TopBlock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <modo_Reto/timerSegundo/cuenta_28> has a constant value of 0 in block <TopBlock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <modo_Reto/timerSegundo/cuenta_29> has a constant value of 0 in block <TopBlock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <modo_Reto/timerSegundo/cuenta_30> has a constant value of 0 in block <TopBlock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <modo_Reto/timerSegundo/cuenta_31> has a constant value of 0 in block <TopBlock>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <modo_Reto/contadorNumeros/contador_1> in Unit <TopBlock> is equivalent to the following FF/Latch, which will be removed : <mRecibeSerial/tickgen/Acc_2> 
+INFO:Xst:2261 - The FF/Latch <clk2> in Unit <TopBlock> is equivalent to the following 2 FFs/Latches, which will be removed : <modo_Reto/contadorNumeros/contador_0> <mRecibeSerial/tickgen/Acc_1> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block TopBlock, actual ratio is 5.
-FlipFlop ui2stst/ui2s/uclk/rate has been replicated 1 time(s)
-Latch modo_Libre/notaSalida_2 has been replicated 1 time(s) to handle iob=true attribute.
-Latch modo_Libre/notaSalida_1 has been replicated 1 time(s) to handle iob=true attribute.
-Latch modo_Libre/notaSalida_0 has been replicated 1 time(s) to handle iob=true attribute.
+Found area constraint ratio of 100 (+ 5) on block TopBlock, actual ratio is 11.
+FlipFlop MOD_vga_dibujafiguras/hc_0 has been replicated 1 time(s)
+FlipFlop MOD_vga_dibujafiguras/hc_1 has been replicated 1 time(s)
+FlipFlop MOD_vga_dibujafiguras/hc_2 has been replicated 1 time(s)
 
 Final Macro Processing ...
 
@@ -860,8 +1159,8 @@ Unit <TopBlock> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 314
- Flip-Flops                                            : 314
+# Registers                                            : 405
+ Flip-Flops                                            : 405
 # Shift Registers                                      : 3
  2-bit shift register                                  : 3
 
@@ -886,28 +1185,28 @@ Top Level Output File Name         : TopBlock.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 563
+# BELS                             : 1180
 #      GND                         : 1
-#      INV                         : 17
-#      LUT1                        : 36
-#      LUT2                        : 75
-#      LUT3                        : 89
-#      LUT4                        : 29
-#      LUT5                        : 31
-#      LUT6                        : 60
-#      MUXCY                       : 105
-#      MUXF7                       : 8
+#      INV                         : 36
+#      LUT1                        : 76
+#      LUT2                        : 101
+#      LUT3                        : 113
+#      LUT4                        : 176
+#      LUT5                        : 112
+#      LUT6                        : 164
+#      MUXCY                       : 211
+#      MUXF7                       : 11
 #      VCC                         : 1
-#      XORCY                       : 111
-# FlipFlops/Latches                : 324
-#      FD                          : 139
-#      FDC                         : 17
+#      XORCY                       : 178
+# FlipFlops/Latches                : 414
+#      FD                          : 165
+#      FDC                         : 30
 #      FDCE                        : 26
-#      FDE                         : 121
-#      FDP                         : 1
-#      FDR                         : 4
-#      FDRE                        : 9
-#      LD                          : 7
+#      FDE                         : 128
+#      FDP                         : 2
+#      FDR                         : 21
+#      FDRE                        : 36
+#      LD                          : 6
 # RAMS                             : 1
 #      RAMB16BWER                  : 1
 # Shift Registers                  : 3
@@ -915,9 +1214,9 @@ Primitive and Black Box Usage:
 # Clock Buffers                    : 3
 #      BUFG                        : 2
 #      BUFGP                       : 1
-# IO Buffers                       : 32
-#      IBUF                        : 4
-#      OBUF                        : 28
+# IO Buffers                       : 35
+#      IBUF                        : 5
+#      OBUF                        : 30
 
 Device utilization summary:
 ---------------------------
@@ -926,23 +1225,22 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             321  out of  18224     1%  
- Number of Slice LUTs:                  340  out of   9112     3%  
-    Number used as Logic:               337  out of   9112     3%  
+ Number of Slice Registers:             414  out of  18224     2%  
+ Number of Slice LUTs:                  781  out of   9112     8%  
+    Number used as Logic:               778  out of   9112     8%  
     Number used as Memory:                3  out of   2176     0%  
        Number used as SRL:                3
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    402
-   Number with an unused Flip Flop:      81  out of    402    20%  
-   Number with an unused LUT:            62  out of    402    15%  
-   Number of fully used LUT-FF pairs:   259  out of    402    64%  
-   Number of unique control sets:        21
+ Number of LUT Flip Flop pairs used:    843
+   Number with an unused Flip Flop:     429  out of    843    50%  
+   Number with an unused LUT:            62  out of    843     7%  
+   Number of fully used LUT-FF pairs:   352  out of    843    41%  
+   Number of unique control sets:        33
 
 IO Utilization: 
- Number of IOs:                          33
- Number of bonded IOBs:                  33  out of    232    14%  
-    IOB Flip Flops/Latches:               3
+ Number of IOs:                          36
+ Number of bonded IOBs:                  36  out of    232    15%  
 
 Specific Feature Utilization:
  Number of Block RAM/FIFO:                1  out of     32     3%  
@@ -967,16 +1265,25 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
------------------------------------+------------------------------+-------+
-Clock Signal                       | Clock buffer(FF name)        | Load  |
------------------------------------+------------------------------+-------+
-clk                                | BUFGP                        | 102   |
-modo_Libre/state_FSM_FFd6          | NONE(modo_Libre/notaSalida_0)| 7     |
-MOD_vga_clockdiv/q_1               | BUFG                         | 20    |
-modo_Libre/contar                  | NONE(count/unidadesMillar_0) | 16    |
-clk2                               | BUFG                         | 175   |
-mRecibeSerial/RxD_data_ready       | NONE(mchar/datoEstable_7)    | 8     |
------------------------------------+------------------------------+-------+
+-----------------------------------------------+-------------------------------------------+-------+
+Clock Signal                                   | Clock buffer(FF name)                     | Load  |
+-----------------------------------------------+-------------------------------------------+-------+
+state[3]_GND_31_o_Mux_19_o(state__n0083<5>1:O) | NONE(*)(reiniciarContador)                | 1     |
+state[3]_GND_29_o_Mux_15_o(state__n0083<1>1:O) | NONE(*)(perdio)                           | 1     |
+state[3]_GND_30_o_Mux_17_o(state__n0083<3>1:O) | NONE(*)(gano)                             | 1     |
+state[3]_GND_34_o_Mux_25_o(state__n0083<11>1:O)| NONE(*)(inicioLibre)                      | 1     |
+state[3]_GND_32_o_Mux_21_o(state__n0083<7>1:O) | NONE(*)(inicioReto)                       | 1     |
+state[3]_GND_33_o_Mux_23_o(state__n0083<9>1:O) | NONE(*)(juegoActivo)                      | 1     |
+clk                                            | BUFGP                                     | 187   |
+modo_Reto/cargarSecuencia                      | NONE(modo_Reto/contadorNumeros/posicion_0)| 4     |
+MOD_vga_clockdiv/q_1                           | BUFG                                      | 23    |
+mRecibeSerial/RxD_data_ready                   | NONE(mchar/datoEstable_7)                 | 8     |
+clk2                                           | BUFG                                      | 174   |
+contar(Mmux_contar11:O)                        | NONE(*)(count/unidadesMillar_0)           | 16    |
+-----------------------------------------------+-------------------------------------------+-------+
+(*) These 7 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
 Asynchronous Control Signals Information:
@@ -987,9 +1294,9 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 4.406ns (Maximum Frequency: 226.976MHz)
-   Minimum input arrival time before clock: 2.785ns
-   Maximum output required time after clock: 8.366ns
+   Minimum period: 4.940ns (Maximum Frequency: 202.429MHz)
+   Minimum input arrival time before clock: 2.844ns
+   Maximum output required time after clock: 15.250ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -998,46 +1305,47 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 3.431ns (frequency: 291.464MHz)
-  Total number of paths / destination ports: 820 / 109
+  Clock period: 4.940ns (frequency: 202.429MHz)
+  Total number of paths / destination ports: 2740 / 253
 -------------------------------------------------------------------------
-Delay:               3.431ns (Levels of Logic = 3)
-  Source:            BTN1/rege_5 (FF)
-  Destination:       BTN1/debounced (FF)
+Delay:               4.940ns (Levels of Logic = 4)
+  Source:            modo_Reto/cuenta_1 (FF)
+  Destination:       modo_Reto/state_FSM_FFd4 (FF)
   Source Clock:      clk rising
   Destination Clock: clk rising
 
-  Data Path: BTN1/rege_5 to BTN1/debounced
+  Data Path: modo_Reto/cuenta_1 to modo_Reto/state_FSM_FFd4
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               3   0.447   0.879  BTN1/rege_5 (BTN1/rege_5)
-     LUT3:I0->O            1   0.205   0.580  BTN1/rege[7]_GND_2_o_equal_2_o<7>_SW0 (N4)
-     LUT6:I5->O            1   0.205   0.808  BTN1/rege[7]_GND_2_o_equal_2_o<7> (BTN1/rege[7]_GND_2_o_equal_2_o)
-     LUT3:I0->O            1   0.205   0.000  BTN1/debounced_rstpot (BTN1/debounced_rstpot)
-     FD:D                      0.102          BTN1/debounced
+     FDE:C->Q             15   0.447   1.086  modo_Reto/cuenta_1 (modo_Reto/cuenta_1)
+     LUT5:I3->O            1   0.203   0.827  modo_Reto/Mmux_notaActualMemoria_71 (modo_Reto/Mmux_notaActualMemoria_71)
+     LUT5:I1->O            5   0.203   0.819  modo_Reto/cuenta<3>1 (modo_Reto/notaActualMemoria<1>)
+     LUT6:I4->O            2   0.203   0.845  modo_Reto/state_FSM_FFd4-In522 (modo_Reto/state_FSM_FFd4-In522)
+     LUT6:I3->O            1   0.205   0.000  modo_Reto/state_FSM_FFd4-In6 (modo_Reto/state_FSM_FFd4-In)
+     FDP:D                     0.102          modo_Reto/state_FSM_FFd4
     ----------------------------------------
-    Total                      3.431ns (1.164ns logic, 2.267ns route)
-                                       (33.9% logic, 66.1% route)
+    Total                      4.940ns (1.363ns logic, 3.577ns route)
+                                       (27.6% logic, 72.4% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'MOD_vga_clockdiv/q_1'
-  Clock period: 4.406ns (frequency: 226.976MHz)
-  Total number of paths / destination ports: 1085 / 30
+  Clock period: 4.878ns (frequency: 204.999MHz)
+  Total number of paths / destination ports: 1326 / 33
 -------------------------------------------------------------------------
-Delay:               4.406ns (Levels of Logic = 13)
-  Source:            MOD_vga_dibujafiguras/hc_1 (FF)
+Delay:               4.878ns (Levels of Logic = 13)
+  Source:            MOD_vga_dibujafiguras/hc_6 (FF)
   Destination:       MOD_vga_dibujafiguras/hc_9 (FF)
   Source Clock:      MOD_vga_clockdiv/q_1 rising
   Destination Clock: MOD_vga_clockdiv/q_1 rising
 
-  Data Path: MOD_vga_dibujafiguras/hc_1 to MOD_vga_dibujafiguras/hc_9
+  Data Path: MOD_vga_dibujafiguras/hc_6 to MOD_vga_dibujafiguras/hc_9
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              7   0.447   1.118  MOD_vga_dibujafiguras/hc_1 (MOD_vga_dibujafiguras/hc_1)
-     LUT5:I0->O            2   0.203   0.617  MOD_vga_dibujafiguras/hc[9]_PWR_4_o_LessThan_2_o_inv1 (MOD_vga_dibujafiguras/hc[9]_PWR_4_o_LessThan_2_o_inv1)
-     LUT6:I5->O           16   0.205   1.005  MOD_vga_dibujafiguras/hc[9]_PWR_4_o_LessThan_2_o_inv2 (MOD_vga_dibujafiguras/hc[9]_PWR_4_o_LessThan_2_o_inv)
+     FDC:C->Q             40   0.447   1.634  MOD_vga_dibujafiguras/hc_6 (MOD_vga_dibujafiguras/hc_6)
+     LUT3:I0->O            7   0.205   0.774  MOD_vga_dibujafiguras/Madd_GND_4_o_GND_4_o_add_36_OUT_xor<8>1111 (MOD_vga_dibujafiguras/Madd_GND_4_o_GND_4_o_add_36_OUT_xor<8>111)
+     LUT6:I5->O            8   0.205   0.803  MOD_vga_dibujafiguras/hc[9]_PWR_4_o_LessThan_2_o_inv1 (MOD_vga_dibujafiguras/hc[9]_PWR_4_o_LessThan_2_o_inv)
      LUT3:I2->O            1   0.205   0.000  MOD_vga_dibujafiguras/Mcount_hc_lut<0> (MOD_vga_dibujafiguras/Mcount_hc_lut<0>)
      MUXCY:S->O            1   0.172   0.000  MOD_vga_dibujafiguras/Mcount_hc_cy<0> (MOD_vga_dibujafiguras/Mcount_hc_cy<0>)
      MUXCY:CI->O           1   0.019   0.000  MOD_vga_dibujafiguras/Mcount_hc_cy<1> (MOD_vga_dibujafiguras/Mcount_hc_cy<1>)
@@ -1051,68 +1359,59 @@ Delay:               4.406ns (Levels of Logic = 13)
      XORCY:CI->O           1   0.180   0.000  MOD_vga_dibujafiguras/Mcount_hc_xor<9> (MOD_vga_dibujafiguras/Mcount_hc9)
      FDC:D                     0.102          MOD_vga_dibujafiguras/hc_9
     ----------------------------------------
-    Total                      4.406ns (1.666ns logic, 2.740ns route)
-                                       (37.8% logic, 62.2% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'modo_Libre/contar'
-  Clock period: 3.680ns (frequency: 271.724MHz)
-  Total number of paths / destination ports: 250 / 32
--------------------------------------------------------------------------
-Delay:               3.680ns (Levels of Logic = 2)
-  Source:            count/decimas_1 (FF)
-  Destination:       count/unidadesMillar_0 (FF)
-  Source Clock:      modo_Libre/contar rising
-  Destination Clock: modo_Libre/contar rising
-
-  Data Path: count/decimas_1 to count/unidadesMillar_0
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDCE:C->Q             7   0.447   1.002  count/decimas_1 (count/decimas_1)
-     LUT4:I1->O            5   0.205   0.819  count/_n0080_inv21 (count/_n0080_inv2)
-     LUT6:I4->O            4   0.203   0.683  count/_n0073_inv1 (count/_n0073_inv)
-     FDCE:CE                   0.322          count/centesimas_3
-    ----------------------------------------
-    Total                      3.680ns (1.177ns logic, 2.503ns route)
-                                       (32.0% logic, 68.0% route)
+    Total                      4.878ns (1.668ns logic, 3.210ns route)
+                                       (34.2% logic, 65.8% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk2'
-  Clock period: 3.415ns (frequency: 292.784MHz)
-  Total number of paths / destination ports: 2169 / 290
+  Clock period: 4.302ns (frequency: 232.474MHz)
+  Total number of paths / destination ports: 2160 / 289
 -------------------------------------------------------------------------
-Delay:               3.415ns (Levels of Logic = 10)
+Delay:               4.302ns (Levels of Logic = 1)
   Source:            ui2stst/ui2s/uclk/rate (FF)
-  Destination:       ui2stst/ui2s/uclk/cnt_8 (FF)
+  Destination:       ui2stst/ui2s/sreg_47 (FF)
   Source Clock:      clk2 rising
   Destination Clock: clk2 rising
 
-  Data Path: ui2stst/ui2s/uclk/rate to ui2stst/ui2s/uclk/cnt_8
+  Data Path: ui2stst/ui2s/uclk/rate to ui2stst/ui2s/sreg_47
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q             127   0.447   2.176  ui2stst/ui2s/uclk/rate (ui2stst/ui2s/uclk/rate)
-     LUT3:I0->O            1   0.205   0.000  ui2stst/ui2s/uclk/Mcount_cnt_lut<0> (ui2stst/ui2s/uclk/Mcount_cnt_lut<0>)
-     MUXCY:S->O            1   0.172   0.000  ui2stst/ui2s/uclk/Mcount_cnt_cy<0> (ui2stst/ui2s/uclk/Mcount_cnt_cy<0>)
-     MUXCY:CI->O           1   0.019   0.000  ui2stst/ui2s/uclk/Mcount_cnt_cy<1> (ui2stst/ui2s/uclk/Mcount_cnt_cy<1>)
-     MUXCY:CI->O           1   0.019   0.000  ui2stst/ui2s/uclk/Mcount_cnt_cy<2> (ui2stst/ui2s/uclk/Mcount_cnt_cy<2>)
-     MUXCY:CI->O           1   0.019   0.000  ui2stst/ui2s/uclk/Mcount_cnt_cy<3> (ui2stst/ui2s/uclk/Mcount_cnt_cy<3>)
-     MUXCY:CI->O           1   0.019   0.000  ui2stst/ui2s/uclk/Mcount_cnt_cy<4> (ui2stst/ui2s/uclk/Mcount_cnt_cy<4>)
-     MUXCY:CI->O           1   0.019   0.000  ui2stst/ui2s/uclk/Mcount_cnt_cy<5> (ui2stst/ui2s/uclk/Mcount_cnt_cy<5>)
-     MUXCY:CI->O           1   0.019   0.000  ui2stst/ui2s/uclk/Mcount_cnt_cy<6> (ui2stst/ui2s/uclk/Mcount_cnt_cy<6>)
-     MUXCY:CI->O           0   0.019   0.000  ui2stst/ui2s/uclk/Mcount_cnt_cy<7> (ui2stst/ui2s/uclk/Mcount_cnt_cy<7>)
-     XORCY:CI->O           1   0.180   0.000  ui2stst/ui2s/uclk/Mcount_cnt_xor<8> (ui2stst/ui2s/uclk/Mcount_cnt8)
-     FD:D                      0.102          ui2stst/ui2s/uclk/cnt_8
+     FD:C->Q             128   0.447   1.951  ui2stst/ui2s/uclk/rate (ui2stst/ui2s/uclk/rate)
+     LUT2:I1->O           38   0.205   1.376  ui2stst/ui2s/_n0048_inv1 (ui2stst/ui2s/_n0048_inv)
+     FDE:CE                    0.322          ui2stst/ui2s/sreg_10
     ----------------------------------------
-    Total                      3.415ns (1.239ns logic, 2.176ns route)
-                                       (36.3% logic, 63.7% route)
+    Total                      4.302ns (0.974ns logic, 3.328ns route)
+                                       (22.6% logic, 77.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'contar'
+  Clock period: 3.950ns (frequency: 253.168MHz)
+  Total number of paths / destination ports: 250 / 32
+-------------------------------------------------------------------------
+Delay:               3.950ns (Levels of Logic = 2)
+  Source:            count/unidades_2 (FF)
+  Destination:       count/decimas_0 (FF)
+  Source Clock:      contar rising
+  Destination Clock: contar rising
+
+  Data Path: count/unidades_2 to count/decimas_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.447   1.002  count/unidades_2 (count/unidades_2)
+     LUT4:I1->O            6   0.205   1.089  count/_n0080_inv11 (count/_n0080_inv1)
+     LUT5:I0->O            4   0.203   0.683  count/_n0067_inv1 (count/_n0067_inv)
+     FDCE:CE                   0.322          count/decimas_3
+    ----------------------------------------
+    Total                      3.950ns (1.177ns logic, 2.773ns route)
+                                       (29.8% logic, 70.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 5 / 5
+  Total number of paths / destination ports: 11 / 11
 -------------------------------------------------------------------------
-Offset:              2.785ns (Levels of Logic = 1)
+Offset:              2.844ns (Levels of Logic = 1)
   Source:            clr (PAD)
   Destination:       MOD_vga_clockdiv/q_0 (FF)
   Destination Clock: clk rising
@@ -1121,17 +1420,17 @@ Offset:              2.785ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            22   1.222   1.133  clr_IBUF (clr_IBUF)
+     IBUF:I->O            25   1.222   1.192  clr_IBUF (clr_IBUF)
      FDC:CLR                   0.430          MOD_vga_clockdiv/q_0
     ----------------------------------------
-    Total                      2.785ns (1.652ns logic, 1.133ns route)
-                                       (59.3% logic, 40.7% route)
+    Total                      2.844ns (1.652ns logic, 1.192ns route)
+                                       (58.1% logic, 41.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'MOD_vga_clockdiv/q_1'
-  Total number of paths / destination ports: 20 / 20
+  Total number of paths / destination ports: 23 / 23
 -------------------------------------------------------------------------
-Offset:              2.785ns (Levels of Logic = 1)
+Offset:              2.844ns (Levels of Logic = 1)
   Source:            clr (PAD)
   Destination:       MOD_vga_dibujafiguras/hc_9 (FF)
   Destination Clock: MOD_vga_clockdiv/q_1 rising
@@ -1140,55 +1439,57 @@ Offset:              2.785ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            22   1.222   1.133  clr_IBUF (clr_IBUF)
+     IBUF:I->O            25   1.222   1.192  clr_IBUF (clr_IBUF)
      FDCE:CLR                  0.430          MOD_vga_dibujafiguras/vc_0
     ----------------------------------------
-    Total                      2.785ns (1.652ns logic, 1.133ns route)
-                                       (59.3% logic, 40.7% route)
+    Total                      2.844ns (1.652ns logic, 1.192ns route)
+                                       (58.1% logic, 41.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 142 / 12
+  Total number of paths / destination ports: 292 / 25
 -------------------------------------------------------------------------
-Offset:              5.745ns (Levels of Logic = 4)
-  Source:            display/Display3_2 (FF)
-  Destination:       Leds7Seg<6> (PAD)
+Offset:              8.881ns (Levels of Logic = 5)
+  Source:            modo_Libre/state_FSM_FFd3 (FF)
+  Destination:       blue<1> (PAD)
   Source Clock:      clk rising
 
-  Data Path: display/Display3_2 to Leds7Seg<6>
+  Data Path: modo_Libre/state_FSM_FFd3 to blue<1>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               7   0.447   1.021  display/Display3_2 (display/Display3_2)
-     LUT4:I0->O            1   0.203   0.580  display/Mmux_Leds7Seg23 (display/Mmux_Leds7Seg22)
-     LUT6:I5->O            1   0.205   0.000  display/Mmux_Leds7Seg25_G (N35)
-     MUXF7:I1->O           1   0.140   0.579  display/Mmux_Leds7Seg25 (Leds7Seg_1_OBUF)
-     OBUF:I->O                 2.571          Leds7Seg_1_OBUF (Leds7Seg<1>)
+     FDC:C->Q             22   0.447   1.362  modo_Libre/state_FSM_FFd3 (modo_Libre/state_FSM_FFd3)
+     LUT5:I2->O           18   0.205   1.414  Mmux_notaSalida21 (notaSalida_1_OBUF)
+     LUT6:I0->O            2   0.203   0.845  ui2stst/uag/Mram_GND_12_o_GND_12_o_mux_8_OUT11111 (MOD_vga_dibujafiguras/blue<1>1)
+     LUT6:I3->O            1   0.205   0.808  MOD_vga_dibujafiguras/blue<1>4 (MOD_vga_dibujafiguras/blue<1>2)
+     LUT6:I3->O            2   0.205   0.616  MOD_vga_dibujafiguras/blue<1>5 (blue_0_OBUF)
+     OBUF:I->O                 2.571          blue_1_OBUF (blue<1>)
     ----------------------------------------
-    Total                      5.745ns (3.566ns logic, 2.179ns route)
-                                       (62.1% logic, 37.9% route)
+    Total                      8.881ns (3.836ns logic, 5.045ns route)
+                                       (43.2% logic, 56.8% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'modo_Libre/state_FSM_FFd6'
-  Total number of paths / destination ports: 33 / 11
+Timing constraint: Default OFFSET OUT AFTER for Clock 'state[3]_GND_34_o_Mux_25_o'
+  Total number of paths / destination ports: 40 / 11
 -------------------------------------------------------------------------
-Offset:              6.646ns (Levels of Logic = 4)
-  Source:            modo_Libre/notaSalida_0 (LATCH)
-  Destination:       green<2> (PAD)
-  Source Clock:      modo_Libre/state_FSM_FFd6 rising
+Offset:              9.026ns (Levels of Logic = 5)
+  Source:            inicioLibre (LATCH)
+  Destination:       blue<1> (PAD)
+  Source Clock:      state[3]_GND_34_o_Mux_25_o falling
 
-  Data Path: modo_Libre/notaSalida_0 to green<2>
+  Data Path: inicioLibre to blue<1>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LD:G->Q              18   0.498   1.154  modo_Libre/notaSalida_0 (modo_Libre/notaSalida_0)
-     LUT2:I0->O            1   0.203   0.580  MOD_vga_dibujafiguras/green<1>1 (MOD_vga_dibujafiguras/green<1>)
-     LUT6:I5->O            1   0.205   0.580  MOD_vga_dibujafiguras/green<1>2 (MOD_vga_dibujafiguras/green<1>1)
-     LUT2:I1->O            3   0.205   0.650  MOD_vga_dibujafiguras/green<1>3 (green_0_OBUF)
-     OBUF:I->O                 2.571          green_2_OBUF (green<2>)
+     LD:G->Q              21   0.498   1.458  inicioLibre (inicioLibre)
+     LUT5:I0->O           18   0.203   1.414  Mmux_notaSalida21 (notaSalida_1_OBUF)
+     LUT6:I0->O            2   0.203   0.845  ui2stst/uag/Mram_GND_12_o_GND_12_o_mux_8_OUT11111 (MOD_vga_dibujafiguras/blue<1>1)
+     LUT6:I3->O            1   0.205   0.808  MOD_vga_dibujafiguras/blue<1>4 (MOD_vga_dibujafiguras/blue<1>2)
+     LUT6:I3->O            2   0.205   0.616  MOD_vga_dibujafiguras/blue<1>5 (blue_0_OBUF)
+     OBUF:I->O                 2.571          blue_1_OBUF (blue<1>)
     ----------------------------------------
-    Total                      6.646ns (3.682ns logic, 2.964ns route)
-                                       (55.4% logic, 44.6% route)
+    Total                      9.026ns (3.885ns logic, 5.141ns route)
+                                       (43.0% logic, 57.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk2'
@@ -1211,26 +1512,104 @@ Offset:              3.634ns (Levels of Logic = 1)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'MOD_vga_clockdiv/q_1'
-  Total number of paths / destination ports: 608 / 10
+  Total number of paths / destination ports: 118936 / 10
 -------------------------------------------------------------------------
-Offset:              8.366ns (Levels of Logic = 5)
-  Source:            MOD_vga_dibujafiguras/hc_5 (FF)
-  Destination:       blue<1> (PAD)
+Offset:              15.250ns (Levels of Logic = 16)
+  Source:            MOD_vga_dibujafiguras/hc_1 (FF)
+  Destination:       green<2> (PAD)
   Source Clock:      MOD_vga_clockdiv/q_1 rising
 
-  Data Path: MOD_vga_dibujafiguras/hc_5 to blue<1>
+  Data Path: MOD_vga_dibujafiguras/hc_1 to green<2>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q             12   0.447   1.253  MOD_vga_dibujafiguras/hc_5 (MOD_vga_dibujafiguras/hc_5)
-     LUT5:I0->O            1   0.203   0.808  MOD_vga_dibujafiguras/GND_4_o_hc[9]_AND_3_o1 (MOD_vga_dibujafiguras/GND_4_o_hc[9]_AND_3_o1)
-     LUT6:I3->O            4   0.205   1.048  MOD_vga_dibujafiguras/GND_4_o_hc[9]_AND_3_o3 (MOD_vga_dibujafiguras/GND_4_o_hc[9]_AND_3_o)
-     LUT6:I0->O            1   0.203   0.808  MOD_vga_dibujafiguras/blue<1>2 (MOD_vga_dibujafiguras/blue<1>1)
-     LUT4:I1->O            2   0.205   0.616  MOD_vga_dibujafiguras/blue<1>3 (blue_0_OBUF)
-     OBUF:I->O                 2.571          blue_1_OBUF (blue<1>)
+     FDC:C->Q             52   0.447   1.789  MOD_vga_dibujafiguras/hc_1 (MOD_vga_dibujafiguras/hc_1)
+     LUT4:I1->O           14   0.205   0.958  MOD_vga_dibujafiguras/Msub_n0309_xor<9>111 (MOD_vga_dibujafiguras/Msub_n0309_xor<9>11)
+     LUT5:I4->O            4   0.205   0.684  MOD_vga_dibujafiguras/Msub_GND_4_o_GND_4_o_sub_63_OUT_cy<8>11 (MOD_vga_dibujafiguras/Msub_GND_4_o_GND_4_o_sub_63_OUT_cy<8>)
+     LUT5:I4->O            1   0.205   0.000  MOD_vga_dibujafiguras/Madd_n0317_lut<9> (MOD_vga_dibujafiguras/Madd_n0317_lut<9>)
+     MUXCY:S->O            1   0.172   0.000  MOD_vga_dibujafiguras/Madd_n0317_cy<9> (MOD_vga_dibujafiguras/Madd_n0317_cy<9>)
+     XORCY:CI->O           2   0.180   0.617  MOD_vga_dibujafiguras/Madd_n0317_xor<10> (MOD_vga_dibujafiguras/n0317<10>)
+     LUT1:I0->O            1   0.205   0.000  MOD_vga_dibujafiguras/Madd_GND_4_o_GND_4_o_add_83_OUT_cy<10>_rt (MOD_vga_dibujafiguras/Madd_GND_4_o_GND_4_o_add_83_OUT_cy<10>_rt)
+     MUXCY:S->O            1   0.172   0.000  MOD_vga_dibujafiguras/Madd_GND_4_o_GND_4_o_add_83_OUT_cy<10> (MOD_vga_dibujafiguras/Madd_GND_4_o_GND_4_o_add_83_OUT_cy<10>)
+     XORCY:CI->O           2   0.180   0.864  MOD_vga_dibujafiguras/Madd_GND_4_o_GND_4_o_add_83_OUT_xor<11> (MOD_vga_dibujafiguras/GND_4_o_GND_4_o_add_83_OUT<11>)
+     LUT5:I1->O            0   0.203   0.000  MOD_vga_dibujafiguras/Mcompar_GND_4_o_GND_4_o_LessThan_85_o_lutdi4 (MOD_vga_dibujafiguras/Mcompar_GND_4_o_GND_4_o_LessThan_85_o_lutdi4)
+     MUXCY:DI->O           1   0.339   0.580  MOD_vga_dibujafiguras/Mcompar_GND_4_o_GND_4_o_LessThan_85_o_cy<4> (MOD_vga_dibujafiguras/Mcompar_GND_4_o_GND_4_o_LessThan_85_o_cy<4>)
+     LUT5:I4->O            1   0.205   0.827  MOD_vga_dibujafiguras/Mcompar_GND_4_o_GND_4_o_LessThan_85_o_cy<5> (MOD_vga_dibujafiguras/Mcompar_GND_4_o_GND_4_o_LessThan_85_o_cy<5>)
+     LUT5:I1->O            4   0.203   0.912  MOD_vga_dibujafiguras/GND_4_o_GND_4_o_AND_24_o4 (MOD_vga_dibujafiguras/GND_4_o_GND_4_o_AND_24_o)
+     LUT4:I1->O            1   0.205   0.580  MOD_vga_dibujafiguras/green<1>4_SW0 (N62)
+     LUT6:I5->O            1   0.205   0.684  MOD_vga_dibujafiguras/green<1>4 (MOD_vga_dibujafiguras/green<1>3)
+     LUT6:I4->O            3   0.203   0.650  MOD_vga_dibujafiguras/green<1>5 (green_0_OBUF)
+     OBUF:I->O                 2.571          green_2_OBUF (green<2>)
     ----------------------------------------
-    Total                      8.366ns (3.834ns logic, 4.532ns route)
-                                       (45.8% logic, 54.2% route)
+    Total                     15.250ns (6.105ns logic, 9.145ns route)
+                                       (40.0% logic, 60.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'state[3]_GND_33_o_Mux_23_o'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              7.305ns (Levels of Logic = 4)
+  Source:            juegoActivo (LATCH)
+  Destination:       green<2> (PAD)
+  Source Clock:      state[3]_GND_33_o_Mux_23_o falling
+
+  Data Path: juegoActivo to green<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q              18   0.498   1.050  juegoActivo (juegoActivo)
+     LUT3:I2->O            1   0.205   0.944  MOD_vga_dibujafiguras/blue<1>3_SW0 (N30)
+     LUT6:I0->O            2   0.203   0.981  MOD_vga_dibujafiguras/blue<1>3 (MOD_vga_dibujafiguras/blue<1>3)
+     LUT6:I0->O            3   0.203   0.650  MOD_vga_dibujafiguras/green<1>5 (green_0_OBUF)
+     OBUF:I->O                 2.571          green_2_OBUF (green<2>)
+    ----------------------------------------
+    Total                      7.305ns (3.680ns logic, 3.625ns route)
+                                       (50.4% logic, 49.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'state[3]_GND_30_o_Mux_17_o'
+  Total number of paths / destination ports: 22 / 8
+-------------------------------------------------------------------------
+Offset:              8.683ns (Levels of Logic = 6)
+  Source:            gano (LATCH)
+  Destination:       red<2> (PAD)
+  Source Clock:      state[3]_GND_30_o_Mux_17_o falling
+
+  Data Path: gano to red<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               6   0.498   0.849  gano (gano)
+     LUT5:I3->O            1   0.203   0.808  MOD_vga_dibujafiguras/red<1>1213 (MOD_vga_dibujafiguras/red<1>1213)
+     LUT6:I3->O            3   0.205   0.651  MOD_vga_dibujafiguras/red<1>1217 (MOD_vga_dibujafiguras/red<1>121)
+     LUT6:I5->O            1   0.205   0.827  MOD_vga_dibujafiguras/red<1>5 (MOD_vga_dibujafiguras/red<1>4)
+     LUT6:I2->O            1   0.203   0.808  MOD_vga_dibujafiguras/red<1>6 (MOD_vga_dibujafiguras/red<1>5)
+     LUT5:I2->O            3   0.205   0.650  MOD_vga_dibujafiguras/red<1>7 (red_0_OBUF)
+     OBUF:I->O                 2.571          red_2_OBUF (red<2>)
+    ----------------------------------------
+    Total                      8.683ns (4.090ns logic, 4.593ns route)
+                                       (47.1% logic, 52.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'state[3]_GND_29_o_Mux_15_o'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              5.726ns (Levels of Logic = 3)
+  Source:            perdio (LATCH)
+  Destination:       green<2> (PAD)
+  Source Clock:      state[3]_GND_29_o_Mux_15_o falling
+
+  Data Path: perdio to green<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               2   0.498   0.617  perdio (perdio)
+     LUT6:I5->O            2   0.205   0.981  MOD_vga_dibujafiguras/blue<1>3 (MOD_vga_dibujafiguras/blue<1>3)
+     LUT6:I0->O            3   0.203   0.650  MOD_vga_dibujafiguras/green<1>5 (green_0_OBUF)
+     OBUF:I->O                 2.571          green_2_OBUF (green<2>)
+    ----------------------------------------
+    Total                      5.726ns (3.477ns logic, 2.249ns route)
+                                       (60.7% logic, 39.3% route)
 
 =========================================================================
 
@@ -1242,7 +1621,7 @@ Clock to Setup on destination clock MOD_vga_clockdiv/q_1
                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 --------------------+---------+---------+---------+---------+
-MOD_vga_clockdiv/q_1|    4.406|         |         |         |
+MOD_vga_clockdiv/q_1|    4.878|         |         |         |
 --------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk
@@ -1250,19 +1629,33 @@ Clock to Setup on destination clock clk
                             | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------------------+---------+---------+---------+---------+
-clk                         |    3.431|         |         |         |
-mRecibeSerial/RxD_data_ready|    3.971|         |         |         |
-modo_Libre/contar           |    1.378|         |         |         |
+clk                         |    4.940|         |         |         |
+contar                      |    1.659|         |         |         |
+mRecibeSerial/RxD_data_ready|    5.108|         |         |         |
+modo_Reto/cargarSecuencia   |    2.263|         |         |         |
+state[3]_GND_32_o_Mux_21_o  |         |    2.569|         |         |
+state[3]_GND_33_o_Mux_23_o  |         |    2.083|         |         |
+state[3]_GND_34_o_Mux_25_o  |         |    2.152|         |         |
 ----------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk2
--------------------------+---------+---------+---------+---------+
-                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock             |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
--------------------------+---------+---------+---------+---------+
-clk2                     |    3.415|         |         |         |
-modo_Libre/state_FSM_FFd6|    2.126|         |         |         |
--------------------------+---------+---------+---------+---------+
+--------------------------+---------+---------+---------+---------+
+                          | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock              |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------------+---------+---------+---------+---------+
+clk                       |    3.733|         |         |         |
+clk2                      |    4.302|         |         |         |
+state[3]_GND_34_o_Mux_25_o|         |    3.878|         |         |
+--------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock contar
+--------------------------+---------+---------+---------+---------+
+                          | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock              |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------------+---------+---------+---------+---------+
+contar                    |    3.950|         |         |         |
+state[3]_GND_31_o_Mux_19_o|         |    1.932|         |         |
+--------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock mRecibeSerial/RxD_data_ready
 ---------------+---------+---------+---------+---------+
@@ -1272,34 +1665,73 @@ Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 clk            |    1.165|         |         |         |
 ---------------+---------+---------+---------+---------+
 
-Clock to Setup on destination clock modo_Libre/contar
------------------+---------+---------+---------+---------+
-                 | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock     |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
------------------+---------+---------+---------+---------+
-clk              |    2.049|         |         |         |
-modo_Libre/contar|    3.680|         |         |         |
------------------+---------+---------+---------+---------+
-
-Clock to Setup on destination clock modo_Libre/state_FSM_FFd6
+Clock to Setup on destination clock modo_Reto/cargarSecuencia
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    1.492|         |         |         |
+clk            |    1.351|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock state[3]_GND_29_o_Mux_15_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    1.134|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock state[3]_GND_30_o_Mux_17_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    1.134|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock state[3]_GND_31_o_Mux_19_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    1.601|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock state[3]_GND_32_o_Mux_21_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    1.228|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock state[3]_GND_33_o_Mux_23_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    1.601|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock state[3]_GND_34_o_Mux_25_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    1.408|         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 8.54 secs
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.24 secs
  
 --> 
 
 Total memory usage is 237716 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   95 (   0 filtered)
-Number of infos    :   12 (   0 filtered)
+Number of warnings :  129 (   0 filtered)
+Number of infos    :   14 (   0 filtered)
 

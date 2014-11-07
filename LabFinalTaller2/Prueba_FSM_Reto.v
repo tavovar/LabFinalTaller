@@ -85,11 +85,26 @@ module Prueba_FSM_Reto;
 		reset = 0;
 		inicio = 0;
 		busNotas = 30'b111101111101111101111101111101;
-		notaUsuario = 0;
+		notaUsuario = 8'b01100011;
+		datoListo = 0;
+		
+		#100;
+		
+		reset = 0;
+		inicio = 0;
+		busNotas = 30'b111101111101111101111101111101;
+		notaUsuario = 8'b01100001;
+		datoListo = 0;
+		
+		#100;
+		
+		reset = 0;
+		inicio = 0;
+		busNotas = 30'b111101111101111101111101111101;
+		notaUsuario = 8'b01100010;
 		datoListo = 0;
 
 		// Wait 100 ns for global reset to finish
-		#100;
         
 		// Add stimulus here
 

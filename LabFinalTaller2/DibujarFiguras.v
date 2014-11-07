@@ -18,10 +18,16 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
+`timescale 1ns / 1ps
+
+
 module DibujarFiguras(
 	input wire dclk,			//pixel clock: 25MHz
 	input wire clr,			//asynchronous reset
 	input wire [2:0] activacionNota,
+	input wire modoActivo,
+	input wire modoGanar,
+	input wire modoPerder,
 	output wire hsync,		//horizontal sync out
 	output wire vsync,		//vertical sync out
 	output reg [2:0] red,	//red vga output
@@ -53,7 +59,9 @@ reg [9:0] vc;
 
 //Parametros de incrementacion
 //integer activacionNota = 0;
-
+//integer modoActivo = 1;
+//integer modoGanar = 0;
+//integer modoPerder = 1;
 
 
 
@@ -127,71 +135,134 @@ begin
 	// first check if we're within vertical active video range
 	if (vc >= vbp && vc < vfp)
 	begin
-		//Pintar Tubo 1
-		if ( hc >= (hbp+ 205) && hc <=  (hbp+255) )
-			begin
-				if(activacionNota == 1)
-					begin
-						red = 3'b111;
-						green = 3'b000;
-						blue = 2'b00;
-					end
-				else
-					begin
-						red = 3'b111;
-						green = 3'b111;
-						blue = 2'b11;
-					end
-			end	
-		//Pintar Tubo 2
-		else if ( hc >= (hbp+ 265) && hc <=  (hbp+315) )
-			begin
-				if(activacionNota == 2)
-					begin
+	if(modoActivo == 1)
+		begin
+			//Modo Perder
+			if (((vc-vbp) >= (((hc-hbp)*(1))-10) && (vc-vbp) < (((hc-hbp)*(1))+10))  && modoPerder == 1) 
+				begin
+					red = 3'b111;
+					green = 3'b000;
+					blue = 2'b00;
+				end
+			else if (((vc-vbp) >= (((hc-hbp)*(-1) +640)-10) && (vc-vbp) < (((hc-hbp)*(-1) + 640)+10))  && modoPerder == 1) 
+				begin
+					red = 3'b111;
+					green = 3'b000;
+					blue = 2'b00;
+				end
+		
+		
+			//Pintar Cuadro Cuerpo
+			else if ((hc >= (hbp+ 270) && hc <=  (hbp+ 370) ) && (vc >= (vbp+ 80) && vc <=  (vbp+ 300)))
+				begin
 						red = 3'b000;
 						green = 3'b111;
 						blue = 2'b00;
-					end
-				else
-					begin
-						red = 3'b111;
-						green = 3'b111;
-						blue = 2'b11;
-					end
-			end
-		//Pintar Tubo 3
-		else if ( hc >= (hbp+ 325) && hc <=  (hbp+375) )
-			begin
-				if(activacionNota == 3)
-					begin
-						red = 3'b000;
-						green = 3'b000;
-						blue = 2'b11;
-					end
-				else
-					begin
-						red = 3'b111;
-						green = 3'b111;
-						blue = 2'b11;
-					end
-			end	
-		//Pintar Tubo 4
-		else if ( hc >= (hbp+ 385) && hc <=  (hbp+435) )
-			begin
-				if(activacionNota == 4)
-					begin
-						red = 3'b111;
-						green = 3'b111;
-						blue = 2'b00;
-					end
-				else
-					begin
-						red = 3'b111;
-						green = 3'b111;
-						blue = 2'b11;
-					end
-			end	
-		//Pintar Fundo
+				end	
+			//Pintar Mano Izq
+			else if ((hc >= (hbp+ 230) && hc <=  (hbp+260 ) ) && (vc >= (vbp+ 80) && vc <=  (vbp+ 180)))
+				begin
+					if(activacionNota == 1 || modoGanar == 1)
+						begin
+							red = 3'b111;
+							green = 3'b000;
+							blue = 2'b00;
+						end
+					else
+						begin
+							red = 3'b000;
+							green = 3'b111;
+							blue = 2'b00;
+						end
+				end
+			//Pintar Mano Der
+			else if ((hc >= (hbp+ 380) && hc <=  (hbp+410 ) ) && (vc >= (vbp+ 80) && vc <=  (vbp+ 180)))
+				begin
+					if(activacionNota == 2 || modoGanar == 1 )
+						begin
+							red = 3'b000;
+							green = 3'b000;
+							blue = 2'b11;
+						end
+					else
+						begin
+							red = 3'b000;
+							green = 3'b111;
+							blue = 2'b00;
+						end
+				end	
+			//Pintar Cabeza
+				//Pintar decoracion
+			else if (((vc-vbp + 570) >= (((hc-hbp)*2)-2) && (vc-vbp+570) < (((hc-hbp)*2)+2)) && ((hc >= (hbp+275) && hc <  (hbp+305)) && (vc >= (vbp+15) && vc <  (vbp+40))) ) 
+				begin
+					red = 3'b111;
+					green = 3'b000;
+					blue = 2'b00;
+				end
+				//Pintar decoracion
+			else if (((vc-vbp) >= (((hc-hbp)*(-2)+710)-2) && (vc-vbp) < (((hc-hbp)*(-2)+710)+2)) && ((hc >= (hbp+335) && hc <  (hbp+365)) && (vc >= (vbp+15) && vc <  (vbp+40))) )
+				begin
+					red = 3'b111;
+					green = 3'b000;
+					blue = 2'b00;
+				end
+				//Cabeza
+			else if ( ((hc >= (hbp+ 305) && hc <=  (hbp+335 ) ) && (vc >= (vbp+ 40) && vc <=  (vbp+ 70))) )
+				begin
+					if (((hc >= (hbp+ 310) && hc <=  (hbp+ 315) ) || (hc >= (hbp+ 325) && hc <=  (hbp+ 330) ) ) && (vc >= (vbp+ 50) && vc <=  (vbp+ 55)))
+						begin
+								red = 3'b000;
+								green = 3'b000;
+								blue = 2'b00;
+						end
+					else
+						begin
+						if(activacionNota == 3 || modoGanar == 1)
+							begin
+							if((((vc >= (vbp+ 60) && vc <=  (vbp+ 64)) && ((hc >= (hbp+ 310) && hc <=  (hbp+ 312)) || ((hc >= (hbp+ 328) && hc <=  (hbp+ 330))))) || ((vc >= (vbp+ 65) && vc <=  (vbp+ 66)) && ((hc >= (hbp+ 310) && hc <=  (hbp+ 330))) )) && modoGanar == 1)
+								begin
+									red = 3'b000;
+									green = 3'b000;
+									blue = 2'b00;
+								end
+							else
+								begin
+									red = 3'b111;
+									green = 3'b111;
+									blue = 2'b00;
+								end
+							end
+						else
+							begin
+									red = 3'b00;
+									green = 3'b111;
+									blue = 2'b00;
+							end
+						end
+				end	
+			//Pintar pies
+			else if ( ((hc >= (hbp+ 285) && hc <=  (hbp+355 ) ) && (vc >= (vbp+ 310) && vc <=  (vbp+ 340))) )
+				begin
+					if(activacionNota == 4 || modoGanar == 1)
+						begin
+							red = 3'b111;
+							green = 3'b111;
+							blue = 2'b11;
+						end
+					else
+						begin
+							red = 3'b000;
+							green = 3'b111;
+							blue = 2'b00;
+						end
+				end	
+			else
+				begin
+					red = 3'b000;
+					green = 3'b000;
+					blue = 2'b00;
+				end
+		end
 		else
 			begin
 				red = 3'b000;
@@ -206,5 +277,6 @@ begin
 			blue = 2'b00;
 		end
 	end
+
 
 endmodule

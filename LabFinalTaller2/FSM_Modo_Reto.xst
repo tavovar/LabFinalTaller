@@ -1,6 +1,9 @@
-set -tmpdir "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/xst"
-run -compileonly yes
+set -tmpdir "xst/projnav.tmp"
+set -xsthdpdir "xst"
+run
+-ifn FSM_Modo_Reto.prj
+-ofn FSM_Modo_Reto
+-ofmt NGC
 -p xc6slx16-3-csg324
 -top FSM_Modo_Reto
 -opt_mode Speed
@@ -47,4 +50,3 @@ run -compileonly yes
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
--ifn FSM_Modo_Reto.prj

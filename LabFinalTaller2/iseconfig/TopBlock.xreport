@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-11-05T21:26:19</DateModified>
+  <DateModified>2014-11-07T09:55:23</DateModified>
   <ModuleName>TopBlock</ModuleName>
-  <SummaryTimeStamp>2014-11-02T15:39:09</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/iseconfig/TopBlock.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2\</ImplementationReportsDirectory>
-  <DateInitialized>2014-10-29T13:08:38</DateInitialized>
+  <SummaryTimeStamp>2014-11-06T22:38:02</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/iseconfig/TopBlock.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2\</ImplementationReportsDirectory>
+  <DateInitialized>2014-11-06T19:52:36</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

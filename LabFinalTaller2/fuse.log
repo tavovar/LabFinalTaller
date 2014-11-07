@@ -1,18 +1,60 @@
-Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/Prueba_FSM_Reto_isim_beh.exe -prj C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/Prueba_FSM_Reto_beh.prj work.Prueba_FSM_Reto work.glbl 
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o H:/LabFinalTaller2/Prueba_TopBlock_isim_beh.exe -prj H:/LabFinalTaller2/Prueba_TopBlock_beh.prj work.Prueba_TopBlock work.glbl 
 ISim P.68d (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/Timer_1_Segundo.v" into library work
-Analyzing Verilog file "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/FSM_Modo_Reto.v" into library work
-Analyzing Verilog file "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/Prueba_FSM_Reto.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/sc_lut.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/sine.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/clkgen.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/Timer_1_Segundo.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/Salida_I2S.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/ROM_Seg.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/GeneradorFrecuencia.v" into library work
+WARNING:HDLCompiler:568 - "H:/LabFinalTaller2/GeneradorFrecuencia.v" Line 36: Constant value is truncated to fit in <3> bits.
+WARNING:HDLCompiler:751 - "H:/LabFinalTaller2/GeneradorFrecuencia.v" Line 74: Redeclaration of ansi port l_data is not allowed
+Analyzing Verilog file "H:/LabFinalTaller2/Contador_Random_Dir.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/Clock_Div.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/VGA_Clock_Div.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/Sonido_I2C.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/Recibe_Senal.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/FSM_Modo_Reto.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/FSM_Modo_Libre.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/DibujarFiguras.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/DeBounce.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/Controlador7Seg.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/Contador.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/Char_Serial.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/TopBlock.v" into library work
+Analyzing Verilog file "H:/LabFinalTaller2/Prueba_TopBlock.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
+Compiling module DeBounce
+Compiling module VGA_Clock_Div
+Compiling module DibujarFiguras
+Compiling module Contador
+Compiling module Controlador7Seg
+Compiling module Clock_Div(ClkFrequency=100000000...
+Compiling module Recibe_Senal_default
+Compiling module Char_Serial
+Compiling module RAMB16_S18(INIT_00=256'b01100001...
+Compiling module sc_lut(asz=10,dsz=14)
+Compiling module sine
+Compiling module GeneradorFrecuencia
+Compiling module clkgen
+Compiling module Salida_I2S
+Compiling module Sonido_I2C
+Compiling module FSM_Modo_Libre
 Compiling module Timer_1Segundo
+Compiling module Contador_Random_Dir
+Compiling module ROM_Seg
 Compiling module FSM_Modo_Reto
-Compiling module Prueba_FSM_Reto
+Compiling module TopBlock
+Compiling module Prueba_TopBlock
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-ERROR:Simulator:904 - Unable to remove previous simulation file C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/Prueba_FSM_Reto_isim_beh.exe. Please check if you have another instance of this simulation running on your system, terminate it and then recompile your design. System Error Message: boost::filesystem::remove: Acceso denegado: "C:\Users\Gustavo\Documents\GitHub\LabFinalTaller2\Prueba_FSM_Reto_isim_beh.exe"
+Compiled 23 Verilog Units
+Built simulation executable H:/LabFinalTaller2/Prueba_TopBlock_isim_beh.exe
+Fuse Memory Usage: 28484 KB
+Fuse CPU Usage: 999 ms

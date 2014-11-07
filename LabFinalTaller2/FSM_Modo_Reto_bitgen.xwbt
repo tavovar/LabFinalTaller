@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=H:\LabFinalTaller2\FSM_Modo_Reto.ncd
+OUTFILE=H:\LabFinalTaller2\FSM_Modo_Reto.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=H:\LabFinalTaller2
+LICENSE=WebPack
+USER_INFO=210931742_0_0_200

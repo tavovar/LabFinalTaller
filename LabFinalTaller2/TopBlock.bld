@@ -6,7 +6,8 @@ Command Line: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
 TopBlock.ngc TopBlock.ngd
 
 Reading NGO file
-"C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/TopBlock.ngc" ...
+"C:/Users/Gustavo/Documents/GitHub/LabFinalTaller/LabFinalTaller2/TopBlock.ngc"
+...
 Gathering constraint information from source properties...
 Done.
 
@@ -28,7 +29,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 176728 kilobytes
+Total memory usage is 176744 kilobytes
 
 Writing NGD file "TopBlock.ngd" ...
 Total REAL time to NGDBUILD completion:  3 sec

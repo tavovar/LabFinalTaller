@@ -1,20 +1,23 @@
 //! **************************************************************************
-// Written by: Map P.68d on Tue Nov 04 11:41:20 2014
+// Written by: Map P.68d on Fri Nov 07 12:41:34 2014
 //! **************************************************************************
 
 SCHEMATIC START;
+COMP "sw" LOCATE = SITE "T10" LEVEL 1;
+COMP "Led" LOCATE = SITE "V15" LEVEL 1;
 COMP "clk" LOCATE = SITE "V10" LEVEL 1;
 COMP "clr" LOCATE = SITE "C4" LEVEL 1;
-COMP "Btn1" LOCATE = SITE "B8" LEVEL 1;
-COMP "Btn2" LOCATE = SITE "A8" LEVEL 1;
+COMP "Btn1" LOCATE = SITE "A8" LEVEL 1;
+COMP "Led2" LOCATE = SITE "M11" LEVEL 1;
+COMP "Btn2" LOCATE = SITE "B8" LEVEL 1;
 COMP "mRxD" LOCATE = SITE "N17" LEVEL 1;
 COMP "JA<0>" LOCATE = SITE "T12" LEVEL 1;
 COMP "JA<1>" LOCATE = SITE "V12" LEVEL 1;
 COMP "JA<2>" LOCATE = SITE "N10" LEVEL 1;
 COMP "JA<3>" LOCATE = SITE "P11" LEVEL 1;
-COMP "notaSalida<0>" LOCATE = SITE "U15" LEVEL 1;
+COMP "notaSalida<0>" LOCATE = SITE "U16" LEVEL 1;
 COMP "notaSalida<1>" LOCATE = SITE "V16" LEVEL 1;
-COMP "notaSalida<2>" LOCATE = SITE "U16" LEVEL 1;
+COMP "notaSalida<2>" LOCATE = SITE "U15" LEVEL 1;
 COMP "blue<0>" LOCATE = SITE "R7" LEVEL 1;
 COMP "blue<1>" LOCATE = SITE "T7" LEVEL 1;
 COMP "hsync" LOCATE = SITE "N6" LEVEL 1;

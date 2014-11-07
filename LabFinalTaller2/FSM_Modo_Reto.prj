@@ -1,2 +1,4 @@
 verilog work "Timer_1_Segundo.v"
+verilog work "ROM_Seg.v"
+verilog work "Contador_Random_Dir.v"
 verilog work "FSM_Modo_Reto.v"

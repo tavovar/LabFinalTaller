@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/Prueba_FSM_Reto_isim_beh.exe" -prj "C:/Users/Gustavo/Documents/GitHub/LabFinalTaller2/Prueba_FSM_Reto_beh.prj" "work.Prueba_FSM_Reto" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "H:/LabFinalTaller2/Prueba_TopBlock_isim_beh.exe" -prj "H:/LabFinalTaller2/Prueba_TopBlock_beh.prj" "work.Prueba_TopBlock" "work.glbl" 

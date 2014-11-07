@@ -20,8 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 module FSM_Modo_Libre(
 	input clk,
-	input inicio,
 	input reset,
+	input inicio,
 	input [7:0]entrada,
 	output reg [2:0]notaSalida,
 	output reg contar
@@ -55,7 +55,7 @@ parameter[7:0]
 	 
 
 initial begin
-    notaSalida=3'd7;
+    notaSalida=nota0;
 	 contar=0;
 end
 	 
@@ -156,6 +156,10 @@ end
 always@(state)
 begin
     case(state)
+	    a: begin
+			 contar=cero;
+			 notaSalida=nota0;
+   	 end
    	 b: begin
 			 contar=cero;
 			 notaSalida=nota0;

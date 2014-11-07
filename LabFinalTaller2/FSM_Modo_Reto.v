@@ -22,13 +22,10 @@ module FSM_Modo_Reto(
 		input wire clk,
 		input reset,
 		input inicio,
-		input [29:0]busNotas,
 		input [7:0]notaUsuario,
-		input datoListo,
 		output reg [2:0]notaSalida,
 		output reg juegoListo,
-		output reg cargarSecuencia,
-		output reg finJuego,
+		output reg resultado,
 		output reg contarNotas
     );
 
@@ -46,19 +43,22 @@ parameter[2:0]
     nota4 = 3'b100;
 
 // Estados de la maquina    
-parameter[4:0]
-    a=5'd1,
-    b=5'd2,
-    c=5'd3,
-    d=5'd4,
-    e=5'd5,
-	 f=5'd6,
-	 g=5'd7,
-	 h=5'd8,
-	 i=5'd9,
-	 j=5'd10,
-	 k=5'd11,
-	 l=5'd12;
+parameter[3:0]
+    a=4'd1,
+    b=4'd2,
+    c=4'd3,
+    d=4'd4,
+    e=4'd5,
+	 f=4'd6,
+	 g=4'd7,
+	 h=4'd8,
+	 i=4'd9,
+	 j=4'd10,
+	 k=4'd11,
+	 l=4'd12,
+	 m=4'd13,
+	 n=4'd14,
+	 o=4'd15;
 
 // Notas en serial	 
 parameter[7:0]
@@ -67,26 +67,30 @@ parameter[7:0]
     C=8'd99,
     D=8'd100;
 
+
 // Registros de control de la maquina de estados
 reg[3:0] cuenta;
 reg[2:0] notaActualUsuario;
 reg[2:0] notaActualMemoria;
 
+
+// Registros de la maquina de estados	 
+reg[3:0] state;
+reg[3:0] next;
+
+
 // Valores iniciales de salida
 initial begin
 	 notaActualUsuario = nota0;
 	 notaActualMemoria = nota0;
-	 cuenta = 4'd1;
+	 cuenta = 4'd0;
     notaSalida=3'd0;
 	 juegoListo=0;
 	 cargarSecuencia=0;
-	 finJuego=0;
 	 contarNotas=0;
+	 resultado=0;
 end
 
-// Registros de la maquina de estados	 
-reg[2:0] state;
-reg[2:0] next;
 
 // Estado por defecto	  
 initial begin
@@ -99,6 +103,13 @@ end
 wire listoTimer;
 reg inicioTimer;
 Timer_1Segundo timerSegundo(clk,inicioTimer,listoTimer);
+
+// Secuencia Aleatoria
+wire [29:0]busNotas;
+wire [3:0] dir; 
+reg cargarSecuencia;
+Contador_Random_Dir contadorNumeros(clk,cargarSecuencia,dir);
+ROM_Seg ROM(clk,dir,busNotas);
 
 
 
@@ -114,13 +125,7 @@ begin
    		 end
    	 end
    	 b:begin
-			if(datoListo)
-				begin
    			 next = c;
-				end
-			else begin
-   			 next = b;
-				end
    	 end
    	 c:begin
 				next = d;
@@ -145,21 +150,19 @@ begin
 			end
    	 end
 		 g:begin
-				next=d;
+			next=d;
    	 end
 		 h:begin
 			if(cuenta!=11)begin
-				next=j;
+				next=m;
 			end
 			else begin
 				next=l;
 			end
    	 end
-		 
 		 i:begin
-				next=a;
+				next=i;
    	 end
-		 
 		 j:begin
 			if(notaActualUsuario==notaActualMemoria)begin
 				next=k;
@@ -173,11 +176,24 @@ begin
    	 end
 		 // meter espera por el problema del tiempo de la FPGA
 		 k:begin
-				next=h;
+			if(notaActualUsuario==nota0) begin
+					next=h;
+			end
+			else begin
+					next=k;
+			end
    	 end
 		 
 		 l:begin
-				next=a;
+				next=l;
+   	 end
+		 m:begin
+			if(notaActualUsuario!=nota0)begin
+				next=j;
+				end
+			else begin
+				next=m;
+			end
    	 end
 		 
    	 default:begin
@@ -202,16 +218,16 @@ begin
 	end   
 end
 
-
-always@(state)
+reg conto = 1'b0;
+always@(posedge clk)
 begin
     case(state)
 		 a: begin
 			 notaSalida=nota0;
 			 juegoListo=cero;
 			 cargarSecuencia=cero;
-			 finJuego=cero;
 			 contarNotas=cero;
+			 resultado=cero;
    	 end
    	 b: begin
 			 cargarSecuencia=uno;
@@ -223,41 +239,60 @@ begin
    	 d: begin
 			 contarNotas=cero;
 			 notaSalida=nota0;
+			 conto=cero;
    	 end
 		 e: begin
 			 juegoListo=uno;
-			 cuenta=4'd1;
 			 notaSalida=nota0;
+			 cuenta=4'd1;
 		 end
 		 f: begin
 			 contarNotas=uno;
 			 inicioTimer = uno;
 			 notaSalida=notaActualMemoria;
+			 conto=cero;
 		 end
 		 g: begin
-			 cuenta=cuenta+1;
+			if(conto==cero)begin
+				cuenta=cuenta+1;
+				conto=uno;
+			end
+			 contarNotas=cero;
 			 inicioTimer = cero;
 		 end
 		 h: begin
 			 inicioTimer = cero;
+			 conto=cero;
+			 juegoListo=uno;
+			 notaSalida=nota0;
 		 end
 		 i: begin
-			 finJuego = uno;
+			 contarNotas=cero;
+			 resultado=cero;
+			 juegoListo=cero;
+			 notaSalida=nota0;
 		 end
 		 j: begin
+			 conto=cero;
 			 contarNotas=uno;
-			 inicioTimer = uno;
 			 notaSalida = notaActualUsuario;
 		 end
 		 k: begin
-			 cuenta=cuenta+1;
-			 inicioTimer = cero;
+			 if(conto==cero)begin
+				cuenta=cuenta+1;
+				conto=uno;
+			 end
+			 contarNotas=cero;
 		 end
 		 l: begin
-			 finJuego = uno;
+			 contarNotas=cero;
+			 resultado=uno;
+			 juegoListo=cero;
+			 notaSalida=nota0;
 		 end
     endcase
 end
+
 
 
 // Parseo de la nota de usuario de 8 bits a nota de 3 bits

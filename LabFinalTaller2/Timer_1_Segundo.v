@@ -40,15 +40,15 @@ always @(posedge clk) begin
 		  termino = 1'b0;
 		  listo = 1'b0;
     end
-    //else if(cuenta==4000000)//2 segundos
-	 else if(cuenta==10)//2 segundos
+    else if(cuenta==100000000)//2 segundos
+	 //else if(cuenta==10)//2 segundos
 		begin
 		
 			 cuenta=cuenta+1;
 			 termino=1'b1;
 		 end
-	 //else if (cuenta == 4000002)begin
-	 else if (cuenta == 12)begin
+	 else if (cuenta == 100000003)begin
+	 //else if (cuenta == 12)begin
 			termino = 1'b0;
 			listo = 1'b1;
 		 end
